@@ -1,0 +1,1568 @@
+{
+  "base": {
+    "accuracy": 0.47648686030428766,
+    "correct": 1378
+  },
+  "best": {
+    "accuracy": 0.47959889349930845,
+    "assignment_summary": {
+      "accuracy": 0.47959889349930845,
+      "correct": 1387,
+      "delta_correct": 9,
+      "delta_vs_safe_base": {
+        "changed": 32,
+        "harmful": 1,
+        "helpful": 10,
+        "neutral_correct": 0,
+        "neutral_wrong": 21
+      },
+      "safe_base_accuracy": 0.47648686030428766,
+      "safe_base_correct": 1378,
+      "selected": [
+        {
+          "accuracy": 0.4778699861687414,
+          "accuracy_after": 0.4778699861687414,
+          "anchor_entity": "fried",
+          "cluster": "cooking",
+          "correct": 1382,
+          "correct_after": 1382,
+          "delta_correct": 4,
+          "incremental_correct": 4,
+          "incremental_delta": {
+            "changed": 12,
+            "harmful": 0,
+            "helpful": 4,
+            "neutral_correct": 0,
+            "neutral_wrong": 8
+          },
+          "observed_confusions": 14,
+          "op": "penalty",
+          "remove_entity": "roasted",
+          "signal_summary": {
+            "anchor_cols": 652,
+            "nonzero_pairs": 154836,
+            "remove_cols": 374,
+            "rows": 414
+          },
+          "weight": 0.2
+        },
+        {
+          "accuracy": 0.47683264177040113,
+          "accuracy_after": 0.4782157676348548,
+          "anchor_entity": "beef",
+          "cluster": "meat",
+          "correct": 1379,
+          "correct_after": 1383,
+          "delta_correct": 1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 9,
+            "harmful": 2,
+            "helpful": 3,
+            "neutral_correct": 0,
+            "neutral_wrong": 4
+          },
+          "observed_confusions": 7,
+          "op": "boost",
+          "remove_entity": "chicken",
+          "signal_summary": {
+            "anchor_cols": 471,
+            "nonzero_pairs": 89961,
+            "remove_cols": 844,
+            "rows": 191
+          },
+          "weight": 0.05
+        },
+        {
+          "accuracy": 0.47683264177040113,
+          "accuracy_after": 0.4785615491009682,
+          "anchor_entity": "onion",
+          "cluster": "veg",
+          "correct": 1379,
+          "correct_after": 1384,
+          "delta_correct": 1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 8,
+            "harmful": 1,
+            "helpful": 2,
+            "neutral_correct": 0,
+            "neutral_wrong": 5
+          },
+          "observed_confusions": 6,
+          "op": "boost",
+          "remove_entity": "lettuce",
+          "signal_summary": {
+            "anchor_cols": 261,
+            "nonzero_pairs": 49590,
+            "remove_cols": 319,
+            "rows": 190
+          },
+          "weight": 0.075
+        },
+        {
+          "accuracy": 0.47683264177040113,
+          "accuracy_after": 0.47959889349930845,
+          "anchor_entity": "steamed",
+          "cluster": "cooking",
+          "correct": 1379,
+          "correct_after": 1387,
+          "delta_correct": 1,
+          "incremental_correct": 3,
+          "incremental_delta": {
+            "changed": 11,
+            "harmful": 0,
+            "helpful": 3,
+            "neutral_correct": 0,
+            "neutral_wrong": 8
+          },
+          "observed_confusions": 6,
+          "op": "penalty",
+          "remove_entity": "roasted",
+          "signal_summary": {
+            "anchor_cols": 154,
+            "nonzero_pairs": 122980,
+            "remove_cols": 430,
+            "rows": 286
+          },
+          "weight": 0.15
+        }
+      ]
+    },
+    "correct": 1387,
+    "delta_correct": 9,
+    "n_selected": 4,
+    "preset": {
+      "max_changed": 120,
+      "max_rules": 5,
+      "min_delta_correct": 1,
+      "min_net_help": 1,
+      "name": "max5_safe"
+    },
+    "selected": [
+      {
+        "accuracy": 0.4778699861687414,
+        "accuracy_after": 0.4778699861687414,
+        "anchor_entity": "fried",
+        "cluster": "cooking",
+        "correct": 1382,
+        "correct_after": 1382,
+        "delta_correct": 4,
+        "incremental_correct": 4,
+        "incremental_delta": {
+          "changed": 12,
+          "harmful": 0,
+          "helpful": 4,
+          "neutral_correct": 0,
+          "neutral_wrong": 8
+        },
+        "observed_confusions": 14,
+        "op": "penalty",
+        "remove_entity": "roasted",
+        "signal_summary": {
+          "anchor_cols": 652,
+          "nonzero_pairs": 154836,
+          "remove_cols": 374,
+          "rows": 414
+        },
+        "weight": 0.2
+      },
+      {
+        "accuracy": 0.47683264177040113,
+        "accuracy_after": 0.4782157676348548,
+        "anchor_entity": "beef",
+        "cluster": "meat",
+        "correct": 1379,
+        "correct_after": 1383,
+        "delta_correct": 1,
+        "incremental_correct": 1,
+        "incremental_delta": {
+          "changed": 9,
+          "harmful": 2,
+          "helpful": 3,
+          "neutral_correct": 0,
+          "neutral_wrong": 4
+        },
+        "observed_confusions": 7,
+        "op": "boost",
+        "remove_entity": "chicken",
+        "signal_summary": {
+          "anchor_cols": 471,
+          "nonzero_pairs": 89961,
+          "remove_cols": 844,
+          "rows": 191
+        },
+        "weight": 0.05
+      },
+      {
+        "accuracy": 0.47683264177040113,
+        "accuracy_after": 0.4785615491009682,
+        "anchor_entity": "onion",
+        "cluster": "veg",
+        "correct": 1379,
+        "correct_after": 1384,
+        "delta_correct": 1,
+        "incremental_correct": 1,
+        "incremental_delta": {
+          "changed": 8,
+          "harmful": 1,
+          "helpful": 2,
+          "neutral_correct": 0,
+          "neutral_wrong": 5
+        },
+        "observed_confusions": 6,
+        "op": "boost",
+        "remove_entity": "lettuce",
+        "signal_summary": {
+          "anchor_cols": 261,
+          "nonzero_pairs": 49590,
+          "remove_cols": 319,
+          "rows": 190
+        },
+        "weight": 0.075
+      },
+      {
+        "accuracy": 0.47683264177040113,
+        "accuracy_after": 0.47959889349930845,
+        "anchor_entity": "steamed",
+        "cluster": "cooking",
+        "correct": 1379,
+        "correct_after": 1387,
+        "delta_correct": 1,
+        "incremental_correct": 3,
+        "incremental_delta": {
+          "changed": 11,
+          "harmful": 0,
+          "helpful": 3,
+          "neutral_correct": 0,
+          "neutral_wrong": 8
+        },
+        "observed_confusions": 6,
+        "op": "penalty",
+        "remove_entity": "roasted",
+        "signal_summary": {
+          "anchor_cols": 154,
+          "nonzero_pairs": 122980,
+          "remove_cols": 430,
+          "rows": 286
+        },
+        "weight": 0.15
+      }
+    ]
+  },
+  "best_submission": "optimization/submission-test2-clustered-ab-20260501181702.csv",
+  "candidate_count": 18,
+  "clusters": {
+    "cooking": [
+      "fried",
+      "grilled",
+      "roasted",
+      "steamed",
+      "baked"
+    ],
+    "dairy_sauce": [
+      "cheese",
+      "cream_sauce",
+      "tomato_sauce",
+      "gravy"
+    ],
+    "dish": [
+      "sushi",
+      "pizza",
+      "burger",
+      "sandwich",
+      "taco",
+      "soup",
+      "salad",
+      "cake",
+      "ice_cream",
+      "eggs"
+    ],
+    "fruit": [
+      "apple",
+      "banana",
+      "orange",
+      "lemon",
+      "berries",
+      "grapes",
+      "mango",
+      "pineapple"
+    ],
+    "meat": [
+      "chicken",
+      "beef",
+      "pork",
+      "lamb",
+      "duck",
+      "turkey",
+      "meatball",
+      "sausage",
+      "patty"
+    ],
+    "seafood": [
+      "fish",
+      "shrimp",
+      "crab",
+      "lobster"
+    ],
+    "starch": [
+      "rice",
+      "pasta",
+      "noodles",
+      "bread",
+      "toast",
+      "bun",
+      "tortilla",
+      "potato"
+    ],
+    "veg": [
+      "broccoli",
+      "carrots",
+      "green_beans",
+      "peas",
+      "corn",
+      "spinach",
+      "lettuce",
+      "tomato",
+      "onion",
+      "mushroom",
+      "pepper",
+      "zucchini",
+      "asparagus",
+      "cabbage",
+      "cucumber",
+      "celery",
+      "avocado"
+    ]
+  },
+  "definition": "Conservative clustered Test2 A/B score nudges on top of safe rare-entity boost.",
+  "elapsed_sec": 313.0013506412506,
+  "finished_at": "2026-05-01T18:22:15",
+  "observed_pairs": [
+    {
+      "anchor_entity": "beef",
+      "cluster": "meat",
+      "observed_confusions": 24,
+      "remove_entity": "pork"
+    },
+    {
+      "anchor_entity": "pork",
+      "cluster": "meat",
+      "observed_confusions": 18,
+      "remove_entity": "beef"
+    },
+    {
+      "anchor_entity": "pork",
+      "cluster": "meat",
+      "observed_confusions": 16,
+      "remove_entity": "chicken"
+    },
+    {
+      "anchor_entity": "chicken",
+      "cluster": "meat",
+      "observed_confusions": 14,
+      "remove_entity": "pork"
+    },
+    {
+      "anchor_entity": "fried",
+      "cluster": "cooking",
+      "observed_confusions": 14,
+      "remove_entity": "roasted"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 12,
+      "remove_entity": "carrots"
+    },
+    {
+      "anchor_entity": "roasted",
+      "cluster": "cooking",
+      "observed_confusions": 12,
+      "remove_entity": "fried"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 10,
+      "remove_entity": "carrots"
+    },
+    {
+      "anchor_entity": "rice",
+      "cluster": "starch",
+      "observed_confusions": 10,
+      "remove_entity": "potato"
+    },
+    {
+      "anchor_entity": "potato",
+      "cluster": "starch",
+      "observed_confusions": 9,
+      "remove_entity": "bread"
+    },
+    {
+      "anchor_entity": "pepper",
+      "cluster": "veg",
+      "observed_confusions": 9,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 9,
+      "remove_entity": "spinach"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 9,
+      "remove_entity": "spinach"
+    },
+    {
+      "anchor_entity": "potato",
+      "cluster": "starch",
+      "observed_confusions": 8,
+      "remove_entity": "rice"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 8,
+      "remove_entity": "pepper"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 8,
+      "remove_entity": "broccoli"
+    },
+    {
+      "anchor_entity": "roasted",
+      "cluster": "cooking",
+      "observed_confusions": 8,
+      "remove_entity": "grilled"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 8,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "beef",
+      "cluster": "meat",
+      "observed_confusions": 7,
+      "remove_entity": "chicken"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 7,
+      "remove_entity": "onion"
+    },
+    {
+      "anchor_entity": "cucumber",
+      "cluster": "veg",
+      "observed_confusions": 7,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "fried",
+      "cluster": "cooking",
+      "observed_confusions": 7,
+      "remove_entity": "grilled"
+    },
+    {
+      "anchor_entity": "onion",
+      "cluster": "veg",
+      "observed_confusions": 6,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "onion",
+      "cluster": "veg",
+      "observed_confusions": 6,
+      "remove_entity": "lettuce"
+    },
+    {
+      "anchor_entity": "green_beans",
+      "cluster": "veg",
+      "observed_confusions": 6,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "bun",
+      "cluster": "starch",
+      "observed_confusions": 6,
+      "remove_entity": "bread"
+    },
+    {
+      "anchor_entity": "cucumber",
+      "cluster": "veg",
+      "observed_confusions": 6,
+      "remove_entity": "lettuce"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 6,
+      "remove_entity": "cucumber"
+    },
+    {
+      "anchor_entity": "steamed",
+      "cluster": "cooking",
+      "observed_confusions": 6,
+      "remove_entity": "roasted"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 6,
+      "remove_entity": "lettuce"
+    }
+  ],
+  "ops": [
+    "penalty",
+    "boost",
+    "both"
+  ],
+  "outputs": {
+    "csv": "optimization/experiment_results/test2_clustered_ab_confusions_20260501181702.csv"
+  },
+  "preset_results": [
+    {
+      "accuracy": 0.47959889349930845,
+      "assignment_summary": {
+        "accuracy": 0.47959889349930845,
+        "correct": 1387,
+        "delta_correct": 9,
+        "delta_vs_safe_base": {
+          "changed": 32,
+          "harmful": 1,
+          "helpful": 10,
+          "neutral_correct": 0,
+          "neutral_wrong": 21
+        },
+        "safe_base_accuracy": 0.47648686030428766,
+        "safe_base_correct": 1378,
+        "selected": [
+          {
+            "accuracy": 0.4778699861687414,
+            "accuracy_after": 0.4778699861687414,
+            "anchor_entity": "fried",
+            "cluster": "cooking",
+            "correct": 1382,
+            "correct_after": 1382,
+            "delta_correct": 4,
+            "incremental_correct": 4,
+            "incremental_delta": {
+              "changed": 12,
+              "harmful": 0,
+              "helpful": 4,
+              "neutral_correct": 0,
+              "neutral_wrong": 8
+            },
+            "observed_confusions": 14,
+            "op": "penalty",
+            "remove_entity": "roasted",
+            "signal_summary": {
+              "anchor_cols": 652,
+              "nonzero_pairs": 154836,
+              "remove_cols": 374,
+              "rows": 414
+            },
+            "weight": 0.2
+          },
+          {
+            "accuracy": 0.47683264177040113,
+            "accuracy_after": 0.4782157676348548,
+            "anchor_entity": "beef",
+            "cluster": "meat",
+            "correct": 1379,
+            "correct_after": 1383,
+            "delta_correct": 1,
+            "incremental_correct": 1,
+            "incremental_delta": {
+              "changed": 9,
+              "harmful": 2,
+              "helpful": 3,
+              "neutral_correct": 0,
+              "neutral_wrong": 4
+            },
+            "observed_confusions": 7,
+            "op": "boost",
+            "remove_entity": "chicken",
+            "signal_summary": {
+              "anchor_cols": 471,
+              "nonzero_pairs": 89961,
+              "remove_cols": 844,
+              "rows": 191
+            },
+            "weight": 0.05
+          },
+          {
+            "accuracy": 0.47683264177040113,
+            "accuracy_after": 0.4785615491009682,
+            "anchor_entity": "onion",
+            "cluster": "veg",
+            "correct": 1379,
+            "correct_after": 1384,
+            "delta_correct": 1,
+            "incremental_correct": 1,
+            "incremental_delta": {
+              "changed": 8,
+              "harmful": 1,
+              "helpful": 2,
+              "neutral_correct": 0,
+              "neutral_wrong": 5
+            },
+            "observed_confusions": 6,
+            "op": "boost",
+            "remove_entity": "lettuce",
+            "signal_summary": {
+              "anchor_cols": 261,
+              "nonzero_pairs": 49590,
+              "remove_cols": 319,
+              "rows": 190
+            },
+            "weight": 0.075
+          },
+          {
+            "accuracy": 0.47683264177040113,
+            "accuracy_after": 0.47959889349930845,
+            "anchor_entity": "steamed",
+            "cluster": "cooking",
+            "correct": 1379,
+            "correct_after": 1387,
+            "delta_correct": 1,
+            "incremental_correct": 3,
+            "incremental_delta": {
+              "changed": 11,
+              "harmful": 0,
+              "helpful": 3,
+              "neutral_correct": 0,
+              "neutral_wrong": 8
+            },
+            "observed_confusions": 6,
+            "op": "penalty",
+            "remove_entity": "roasted",
+            "signal_summary": {
+              "anchor_cols": 154,
+              "nonzero_pairs": 122980,
+              "remove_cols": 430,
+              "rows": 286
+            },
+            "weight": 0.15
+          }
+        ]
+      },
+      "correct": 1387,
+      "delta_correct": 9,
+      "n_selected": 4,
+      "preset": {
+        "max_changed": 120,
+        "max_rules": 5,
+        "min_delta_correct": 1,
+        "min_net_help": 1,
+        "name": "max5_safe"
+      },
+      "selected": [
+        {
+          "accuracy": 0.4778699861687414,
+          "accuracy_after": 0.4778699861687414,
+          "anchor_entity": "fried",
+          "cluster": "cooking",
+          "correct": 1382,
+          "correct_after": 1382,
+          "delta_correct": 4,
+          "incremental_correct": 4,
+          "incremental_delta": {
+            "changed": 12,
+            "harmful": 0,
+            "helpful": 4,
+            "neutral_correct": 0,
+            "neutral_wrong": 8
+          },
+          "observed_confusions": 14,
+          "op": "penalty",
+          "remove_entity": "roasted",
+          "signal_summary": {
+            "anchor_cols": 652,
+            "nonzero_pairs": 154836,
+            "remove_cols": 374,
+            "rows": 414
+          },
+          "weight": 0.2
+        },
+        {
+          "accuracy": 0.47683264177040113,
+          "accuracy_after": 0.4782157676348548,
+          "anchor_entity": "beef",
+          "cluster": "meat",
+          "correct": 1379,
+          "correct_after": 1383,
+          "delta_correct": 1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 9,
+            "harmful": 2,
+            "helpful": 3,
+            "neutral_correct": 0,
+            "neutral_wrong": 4
+          },
+          "observed_confusions": 7,
+          "op": "boost",
+          "remove_entity": "chicken",
+          "signal_summary": {
+            "anchor_cols": 471,
+            "nonzero_pairs": 89961,
+            "remove_cols": 844,
+            "rows": 191
+          },
+          "weight": 0.05
+        },
+        {
+          "accuracy": 0.47683264177040113,
+          "accuracy_after": 0.4785615491009682,
+          "anchor_entity": "onion",
+          "cluster": "veg",
+          "correct": 1379,
+          "correct_after": 1384,
+          "delta_correct": 1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 8,
+            "harmful": 1,
+            "helpful": 2,
+            "neutral_correct": 0,
+            "neutral_wrong": 5
+          },
+          "observed_confusions": 6,
+          "op": "boost",
+          "remove_entity": "lettuce",
+          "signal_summary": {
+            "anchor_cols": 261,
+            "nonzero_pairs": 49590,
+            "remove_cols": 319,
+            "rows": 190
+          },
+          "weight": 0.075
+        },
+        {
+          "accuracy": 0.47683264177040113,
+          "accuracy_after": 0.47959889349930845,
+          "anchor_entity": "steamed",
+          "cluster": "cooking",
+          "correct": 1379,
+          "correct_after": 1387,
+          "delta_correct": 1,
+          "incremental_correct": 3,
+          "incremental_delta": {
+            "changed": 11,
+            "harmful": 0,
+            "helpful": 3,
+            "neutral_correct": 0,
+            "neutral_wrong": 8
+          },
+          "observed_confusions": 6,
+          "op": "penalty",
+          "remove_entity": "roasted",
+          "signal_summary": {
+            "anchor_cols": 154,
+            "nonzero_pairs": 122980,
+            "remove_cols": 430,
+            "rows": 286
+          },
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "accuracy": 0.47959889349930845,
+      "correct": 1387,
+      "delta_correct": 9,
+      "n_selected": 4,
+      "preset": {
+        "max_changed": 120,
+        "max_rules": 8,
+        "min_delta_correct": 1,
+        "min_net_help": 1,
+        "name": "max8_safe"
+      },
+      "selected": [
+        {
+          "accuracy": 0.4778699861687414,
+          "accuracy_after": 0.4778699861687414,
+          "anchor_entity": "fried",
+          "cluster": "cooking",
+          "correct": 1382,
+          "correct_after": 1382,
+          "delta_correct": 4,
+          "incremental_correct": 4,
+          "incremental_delta": {
+            "changed": 12,
+            "harmful": 0,
+            "helpful": 4,
+            "neutral_correct": 0,
+            "neutral_wrong": 8
+          },
+          "observed_confusions": 14,
+          "op": "penalty",
+          "remove_entity": "roasted",
+          "signal_summary": {
+            "anchor_cols": 652,
+            "nonzero_pairs": 154836,
+            "remove_cols": 374,
+            "rows": 414
+          },
+          "weight": 0.2
+        },
+        {
+          "accuracy": 0.47683264177040113,
+          "accuracy_after": 0.4782157676348548,
+          "anchor_entity": "beef",
+          "cluster": "meat",
+          "correct": 1379,
+          "correct_after": 1383,
+          "delta_correct": 1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 9,
+            "harmful": 2,
+            "helpful": 3,
+            "neutral_correct": 0,
+            "neutral_wrong": 4
+          },
+          "observed_confusions": 7,
+          "op": "boost",
+          "remove_entity": "chicken",
+          "signal_summary": {
+            "anchor_cols": 471,
+            "nonzero_pairs": 89961,
+            "remove_cols": 844,
+            "rows": 191
+          },
+          "weight": 0.05
+        },
+        {
+          "accuracy": 0.47683264177040113,
+          "accuracy_after": 0.4785615491009682,
+          "anchor_entity": "onion",
+          "cluster": "veg",
+          "correct": 1379,
+          "correct_after": 1384,
+          "delta_correct": 1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 8,
+            "harmful": 1,
+            "helpful": 2,
+            "neutral_correct": 0,
+            "neutral_wrong": 5
+          },
+          "observed_confusions": 6,
+          "op": "boost",
+          "remove_entity": "lettuce",
+          "signal_summary": {
+            "anchor_cols": 261,
+            "nonzero_pairs": 49590,
+            "remove_cols": 319,
+            "rows": 190
+          },
+          "weight": 0.075
+        },
+        {
+          "accuracy": 0.47683264177040113,
+          "accuracy_after": 0.47959889349930845,
+          "anchor_entity": "steamed",
+          "cluster": "cooking",
+          "correct": 1379,
+          "correct_after": 1387,
+          "delta_correct": 1,
+          "incremental_correct": 3,
+          "incremental_delta": {
+            "changed": 11,
+            "harmful": 0,
+            "helpful": 3,
+            "neutral_correct": 0,
+            "neutral_wrong": 8
+          },
+          "observed_confusions": 6,
+          "op": "penalty",
+          "remove_entity": "roasted",
+          "signal_summary": {
+            "anchor_cols": 154,
+            "nonzero_pairs": 122980,
+            "remove_cols": 430,
+            "rows": 286
+          },
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "accuracy": 0.4785615491009682,
+      "correct": 1384,
+      "delta_correct": 6,
+      "n_selected": 3,
+      "preset": {
+        "max_changed": 120,
+        "max_rules": 3,
+        "min_delta_correct": 1,
+        "min_net_help": 1,
+        "name": "max3_safe"
+      },
+      "selected": [
+        {
+          "accuracy": 0.4778699861687414,
+          "accuracy_after": 0.4778699861687414,
+          "anchor_entity": "fried",
+          "cluster": "cooking",
+          "correct": 1382,
+          "correct_after": 1382,
+          "delta_correct": 4,
+          "incremental_correct": 4,
+          "incremental_delta": {
+            "changed": 12,
+            "harmful": 0,
+            "helpful": 4,
+            "neutral_correct": 0,
+            "neutral_wrong": 8
+          },
+          "observed_confusions": 14,
+          "op": "penalty",
+          "remove_entity": "roasted",
+          "signal_summary": {
+            "anchor_cols": 652,
+            "nonzero_pairs": 154836,
+            "remove_cols": 374,
+            "rows": 414
+          },
+          "weight": 0.2
+        },
+        {
+          "accuracy": 0.47683264177040113,
+          "accuracy_after": 0.4782157676348548,
+          "anchor_entity": "beef",
+          "cluster": "meat",
+          "correct": 1379,
+          "correct_after": 1383,
+          "delta_correct": 1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 9,
+            "harmful": 2,
+            "helpful": 3,
+            "neutral_correct": 0,
+            "neutral_wrong": 4
+          },
+          "observed_confusions": 7,
+          "op": "boost",
+          "remove_entity": "chicken",
+          "signal_summary": {
+            "anchor_cols": 471,
+            "nonzero_pairs": 89961,
+            "remove_cols": 844,
+            "rows": 191
+          },
+          "weight": 0.05
+        },
+        {
+          "accuracy": 0.47683264177040113,
+          "accuracy_after": 0.4785615491009682,
+          "anchor_entity": "onion",
+          "cluster": "veg",
+          "correct": 1379,
+          "correct_after": 1384,
+          "delta_correct": 1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 8,
+            "harmful": 1,
+            "helpful": 2,
+            "neutral_correct": 0,
+            "neutral_wrong": 5
+          },
+          "observed_confusions": 6,
+          "op": "boost",
+          "remove_entity": "lettuce",
+          "signal_summary": {
+            "anchor_cols": 261,
+            "nonzero_pairs": 49590,
+            "remove_cols": 319,
+            "rows": 190
+          },
+          "weight": 0.075
+        }
+      ]
+    },
+    {
+      "accuracy": 0.4782157676348548,
+      "correct": 1383,
+      "delta_correct": 5,
+      "n_selected": 2,
+      "preset": {
+        "max_changed": 120,
+        "max_rules": 2,
+        "min_delta_correct": 1,
+        "min_net_help": 1,
+        "name": "max2_safe"
+      },
+      "selected": [
+        {
+          "accuracy": 0.4778699861687414,
+          "accuracy_after": 0.4778699861687414,
+          "anchor_entity": "fried",
+          "cluster": "cooking",
+          "correct": 1382,
+          "correct_after": 1382,
+          "delta_correct": 4,
+          "incremental_correct": 4,
+          "incremental_delta": {
+            "changed": 12,
+            "harmful": 0,
+            "helpful": 4,
+            "neutral_correct": 0,
+            "neutral_wrong": 8
+          },
+          "observed_confusions": 14,
+          "op": "penalty",
+          "remove_entity": "roasted",
+          "signal_summary": {
+            "anchor_cols": 652,
+            "nonzero_pairs": 154836,
+            "remove_cols": 374,
+            "rows": 414
+          },
+          "weight": 0.2
+        },
+        {
+          "accuracy": 0.47683264177040113,
+          "accuracy_after": 0.4782157676348548,
+          "anchor_entity": "beef",
+          "cluster": "meat",
+          "correct": 1379,
+          "correct_after": 1383,
+          "delta_correct": 1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 9,
+            "harmful": 2,
+            "helpful": 3,
+            "neutral_correct": 0,
+            "neutral_wrong": 4
+          },
+          "observed_confusions": 7,
+          "op": "boost",
+          "remove_entity": "chicken",
+          "signal_summary": {
+            "anchor_cols": 471,
+            "nonzero_pairs": 89961,
+            "remove_cols": 844,
+            "rows": 191
+          },
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "accuracy": 0.4778699861687414,
+      "correct": 1382,
+      "delta_correct": 4,
+      "n_selected": 1,
+      "preset": {
+        "max_changed": 80,
+        "max_rules": 1,
+        "min_delta_correct": 1,
+        "min_net_help": 1,
+        "name": "max1_safest"
+      },
+      "selected": [
+        {
+          "accuracy": 0.4778699861687414,
+          "accuracy_after": 0.4778699861687414,
+          "anchor_entity": "fried",
+          "cluster": "cooking",
+          "correct": 1382,
+          "correct_after": 1382,
+          "delta_correct": 4,
+          "incremental_correct": 4,
+          "incremental_delta": {
+            "changed": 12,
+            "harmful": 0,
+            "helpful": 4,
+            "neutral_correct": 0,
+            "neutral_wrong": 8
+          },
+          "observed_confusions": 14,
+          "op": "penalty",
+          "remove_entity": "roasted",
+          "signal_summary": {
+            "anchor_cols": 652,
+            "nonzero_pairs": 154836,
+            "remove_cols": 374,
+            "rows": 414
+          },
+          "weight": 0.2
+        }
+      ]
+    }
+  ],
+  "run_id": "test2_clustered_ab_confusions_20260501181702",
+  "safe_test2_best": {
+    "accuracy": 0.47648686030428766,
+    "boost": 0.075,
+    "detector": "and",
+    "entities": [
+      "ice_cream",
+      "blackberry",
+      "cookie",
+      "kiwi",
+      "shrimp"
+    ],
+    "score_base": "entity_jaccard",
+    "subset": "safe_no_muffin_tuna"
+  },
+  "script": "optimization/evaluate_test2_clustered_ab_confusions-20260501.py",
+  "top_candidates": [
+    {
+      "accuracy": 0.4778699861687414,
+      "anchor_entity": "fried",
+      "cluster": "cooking",
+      "correct": 1382,
+      "delta_correct": 4,
+      "delta_vs_base": {
+        "changed": 12,
+        "harmful": 0,
+        "helpful": 4,
+        "neutral_correct": 0,
+        "neutral_wrong": 8
+      },
+      "observed_confusions": 14,
+      "op": "penalty",
+      "remove_entity": "roasted",
+      "signal_summary": {
+        "anchor_cols": 652,
+        "nonzero_pairs": 154836,
+        "remove_cols": 374,
+        "rows": 414
+      },
+      "weight": 0.2
+    },
+    {
+      "accuracy": 0.4778699861687414,
+      "anchor_entity": "roasted",
+      "cluster": "cooking",
+      "correct": 1382,
+      "delta_correct": 4,
+      "delta_vs_base": {
+        "changed": 65,
+        "harmful": 7,
+        "helpful": 11,
+        "neutral_correct": 0,
+        "neutral_wrong": 47
+      },
+      "observed_confusions": 8,
+      "op": "both",
+      "remove_entity": "grilled",
+      "signal_summary": {
+        "anchor_cols": 403,
+        "nonzero_pairs": 244596,
+        "remove_cols": 251,
+        "rows": 374
+      },
+      "weight": 0.2
+    },
+    {
+      "accuracy": 0.47717842323651455,
+      "anchor_entity": "fried",
+      "cluster": "cooking",
+      "correct": 1380,
+      "delta_correct": 2,
+      "delta_vs_base": {
+        "changed": 3,
+        "harmful": 0,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 14,
+      "op": "penalty",
+      "remove_entity": "roasted",
+      "signal_summary": {
+        "anchor_cols": 652,
+        "nonzero_pairs": 154836,
+        "remove_cols": 374,
+        "rows": 414
+      },
+      "weight": 0.1
+    },
+    {
+      "accuracy": 0.47717842323651455,
+      "anchor_entity": "roasted",
+      "cluster": "cooking",
+      "correct": 1380,
+      "delta_correct": 2,
+      "delta_vs_base": {
+        "changed": 48,
+        "harmful": 5,
+        "helpful": 7,
+        "neutral_correct": 0,
+        "neutral_wrong": 36
+      },
+      "observed_confusions": 8,
+      "op": "boost",
+      "remove_entity": "grilled",
+      "signal_summary": {
+        "anchor_cols": 403,
+        "nonzero_pairs": 150722,
+        "remove_cols": 251,
+        "rows": 374
+      },
+      "weight": 0.15
+    },
+    {
+      "accuracy": 0.47717842323651455,
+      "anchor_entity": "roasted",
+      "cluster": "cooking",
+      "correct": 1380,
+      "delta_correct": 2,
+      "delta_vs_base": {
+        "changed": 65,
+        "harmful": 8,
+        "helpful": 10,
+        "neutral_correct": 0,
+        "neutral_wrong": 47
+      },
+      "observed_confusions": 8,
+      "op": "boost",
+      "remove_entity": "grilled",
+      "signal_summary": {
+        "anchor_cols": 403,
+        "nonzero_pairs": 150722,
+        "remove_cols": 251,
+        "rows": 374
+      },
+      "weight": 0.2
+    },
+    {
+      "accuracy": 0.47683264177040113,
+      "anchor_entity": "fried",
+      "cluster": "cooking",
+      "correct": 1379,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 1,
+        "harmful": 0,
+        "helpful": 1,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 14,
+      "op": "penalty",
+      "remove_entity": "roasted",
+      "signal_summary": {
+        "anchor_cols": 652,
+        "nonzero_pairs": 154836,
+        "remove_cols": 374,
+        "rows": 414
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.47683264177040113,
+      "anchor_entity": "pork",
+      "cluster": "meat",
+      "correct": 1379,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 3,
+        "harmful": 0,
+        "helpful": 1,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 16,
+      "op": "penalty",
+      "remove_entity": "chicken",
+      "signal_summary": {
+        "anchor_cols": 490,
+        "nonzero_pairs": 188009,
+        "remove_cols": 821,
+        "rows": 229
+      },
+      "weight": 0.03
+    },
+    {
+      "accuracy": 0.47683264177040113,
+      "anchor_entity": "roasted",
+      "cluster": "cooking",
+      "correct": 1379,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 5,
+        "harmful": 0,
+        "helpful": 1,
+        "neutral_correct": 0,
+        "neutral_wrong": 4
+      },
+      "observed_confusions": 8,
+      "op": "penalty",
+      "remove_entity": "grilled",
+      "signal_summary": {
+        "anchor_cols": 403,
+        "nonzero_pairs": 93874,
+        "remove_cols": 251,
+        "rows": 374
+      },
+      "weight": 0.2
+    },
+    {
+      "accuracy": 0.47683264177040113,
+      "anchor_entity": "beef",
+      "cluster": "meat",
+      "correct": 1379,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 7,
+        "harmful": 2,
+        "helpful": 3,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 7,
+      "op": "boost",
+      "remove_entity": "chicken",
+      "signal_summary": {
+        "anchor_cols": 471,
+        "nonzero_pairs": 89961,
+        "remove_cols": 844,
+        "rows": 191
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.47683264177040113,
+      "anchor_entity": "beef",
+      "cluster": "meat",
+      "correct": 1379,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 7,
+        "harmful": 2,
+        "helpful": 3,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 7,
+      "op": "both",
+      "remove_entity": "chicken",
+      "signal_summary": {
+        "anchor_cols": 471,
+        "nonzero_pairs": 251165,
+        "remove_cols": 844,
+        "rows": 191
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.47683264177040113,
+      "anchor_entity": "roasted",
+      "cluster": "cooking",
+      "correct": 1379,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 8,
+        "harmful": 1,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 5
+      },
+      "observed_confusions": 8,
+      "op": "both",
+      "remove_entity": "grilled",
+      "signal_summary": {
+        "anchor_cols": 403,
+        "nonzero_pairs": 244596,
+        "remove_cols": 251,
+        "rows": 374
+      },
+      "weight": 0.03
+    },
+    {
+      "accuracy": 0.47683264177040113,
+      "anchor_entity": "onion",
+      "cluster": "veg",
+      "correct": 1379,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 8,
+        "harmful": 1,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 5
+      },
+      "observed_confusions": 6,
+      "op": "boost",
+      "remove_entity": "lettuce",
+      "signal_summary": {
+        "anchor_cols": 261,
+        "nonzero_pairs": 49590,
+        "remove_cols": 319,
+        "rows": 190
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.47683264177040113,
+      "anchor_entity": "onion",
+      "cluster": "veg",
+      "correct": 1379,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 8,
+        "harmful": 1,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 5
+      },
+      "observed_confusions": 6,
+      "op": "boost",
+      "remove_entity": "lettuce",
+      "signal_summary": {
+        "anchor_cols": 261,
+        "nonzero_pairs": 49590,
+        "remove_cols": 319,
+        "rows": 190
+      },
+      "weight": 0.1
+    },
+    {
+      "accuracy": 0.47683264177040113,
+      "anchor_entity": "steamed",
+      "cluster": "cooking",
+      "correct": 1379,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 8,
+        "harmful": 0,
+        "helpful": 1,
+        "neutral_correct": 0,
+        "neutral_wrong": 7
+      },
+      "observed_confusions": 6,
+      "op": "penalty",
+      "remove_entity": "roasted",
+      "signal_summary": {
+        "anchor_cols": 154,
+        "nonzero_pairs": 122980,
+        "remove_cols": 430,
+        "rows": 286
+      },
+      "weight": 0.1
+    },
+    {
+      "accuracy": 0.47683264177040113,
+      "anchor_entity": "beef",
+      "cluster": "meat",
+      "correct": 1379,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 10,
+        "harmful": 2,
+        "helpful": 3,
+        "neutral_correct": 0,
+        "neutral_wrong": 5
+      },
+      "observed_confusions": 7,
+      "op": "boost",
+      "remove_entity": "chicken",
+      "signal_summary": {
+        "anchor_cols": 471,
+        "nonzero_pairs": 89961,
+        "remove_cols": 844,
+        "rows": 191
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.47683264177040113,
+      "anchor_entity": "steamed",
+      "cluster": "cooking",
+      "correct": 1379,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 10,
+        "harmful": 0,
+        "helpful": 1,
+        "neutral_correct": 0,
+        "neutral_wrong": 9
+      },
+      "observed_confusions": 6,
+      "op": "penalty",
+      "remove_entity": "roasted",
+      "signal_summary": {
+        "anchor_cols": 154,
+        "nonzero_pairs": 122980,
+        "remove_cols": 430,
+        "rows": 286
+      },
+      "weight": 0.15
+    },
+    {
+      "accuracy": 0.47683264177040113,
+      "anchor_entity": "beef",
+      "cluster": "meat",
+      "correct": 1379,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 25,
+        "harmful": 4,
+        "helpful": 5,
+        "neutral_correct": 0,
+        "neutral_wrong": 16
+      },
+      "observed_confusions": 7,
+      "op": "boost",
+      "remove_entity": "chicken",
+      "signal_summary": {
+        "anchor_cols": 471,
+        "nonzero_pairs": 89961,
+        "remove_cols": 844,
+        "rows": 191
+      },
+      "weight": 0.2
+    },
+    {
+      "accuracy": 0.47683264177040113,
+      "anchor_entity": "roasted",
+      "cluster": "cooking",
+      "correct": 1379,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 41,
+        "harmful": 5,
+        "helpful": 6,
+        "neutral_correct": 0,
+        "neutral_wrong": 30
+      },
+      "observed_confusions": 8,
+      "op": "both",
+      "remove_entity": "grilled",
+      "signal_summary": {
+        "anchor_cols": 403,
+        "nonzero_pairs": 244596,
+        "remove_cols": 251,
+        "rows": 374
+      },
+      "weight": 0.1
+    }
+  ],
+  "weights": [
+    0.03,
+    0.05,
+    0.075,
+    0.1,
+    0.15,
+    0.2
+  ]
+}

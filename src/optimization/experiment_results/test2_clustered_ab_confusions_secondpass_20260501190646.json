@@ -1,0 +1,7375 @@
+{
+  "aggressive_base": {
+    "accuracy": 0.4809820193637621,
+    "correct": 1391
+  },
+  "aggressive_manifest": "optimization/experiment_results/test2_clustered_ab_confusions_aggressive_20260501184656.json",
+  "aggressive_script": "optimization/evaluate_test2_clustered_ab_confusions_aggressive-20260501.py",
+  "best": {
+    "accuracy": 0.4823651452282158,
+    "assignment_summary": {
+      "accuracy": 0.4823651452282158,
+      "aggressive_base_accuracy": 0.4809820193637621,
+      "aggressive_base_correct": 1391,
+      "correct": 1395,
+      "delta_correct": 4,
+      "delta_vs_aggressive_base": {
+        "changed": 23,
+        "harmful": 1,
+        "helpful": 5,
+        "neutral_correct": 0,
+        "neutral_wrong": 17
+      },
+      "selected": [
+        {
+          "accuracy": 0.48167358229598894,
+          "accuracy_after": 0.48167358229598894,
+          "anchor_entity": "corn",
+          "assigned_proxy_delta": 1,
+          "candidate_id": "a00214",
+          "cluster": "veg",
+          "correct": 1393,
+          "correct_after": 1393,
+          "delta_correct": 2,
+          "incremental_correct": 2,
+          "incremental_delta": {
+            "changed": 7,
+            "harmful": 0,
+            "helpful": 2,
+            "neutral_correct": 0,
+            "neutral_wrong": 5
+          },
+          "observed_confusions": 1,
+          "op": "penalty",
+          "remove_entity": "lettuce",
+          "rowwise_changed": 3,
+          "rowwise_delta": 1,
+          "rowwise_harmful": 0,
+          "rowwise_helpful": 1,
+          "screen_score": 1272.94,
+          "signal_summary": {
+            "anchor_cols": 245,
+            "nonzero_pairs": 59856,
+            "remove_cols": 344,
+            "rows": 174
+          },
+          "weight": 0.4
+        },
+        {
+          "accuracy": 0.48132780082987553,
+          "accuracy_after": 0.48201936376210236,
+          "anchor_entity": "tomato",
+          "assigned_proxy_delta": 1,
+          "candidate_id": "a00138",
+          "cluster": "veg",
+          "correct": 1392,
+          "correct_after": 1394,
+          "delta_correct": 1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 1,
+            "harmful": 0,
+            "helpful": 1,
+            "neutral_correct": 0,
+            "neutral_wrong": 0
+          },
+          "observed_confusions": 2,
+          "op": "penalty",
+          "remove_entity": "celery",
+          "rowwise_changed": 1,
+          "rowwise_delta": 1,
+          "rowwise_harmful": 0,
+          "rowwise_helpful": 1,
+          "screen_score": 1275.98,
+          "signal_summary": {
+            "anchor_cols": 840,
+            "nonzero_pairs": 51660,
+            "remove_cols": 90,
+            "rows": 574
+          },
+          "weight": 0.4
+        },
+        {
+          "accuracy": 0.4806362378976487,
+          "accuracy_after": 0.4823651452282158,
+          "anchor_entity": "tomato",
+          "assigned_proxy_delta": 0,
+          "candidate_id": "a00276",
+          "cluster": "veg",
+          "correct": 1390,
+          "correct_after": 1395,
+          "delta_correct": -1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 18,
+            "harmful": 1,
+            "helpful": 2,
+            "neutral_correct": 0,
+            "neutral_wrong": 15
+          },
+          "observed_confusions": 4,
+          "op": "both",
+          "remove_entity": "mushroom",
+          "rowwise_changed": 12,
+          "rowwise_delta": 4,
+          "rowwise_harmful": 0,
+          "rowwise_helpful": 4,
+          "screen_score": 1091.76,
+          "signal_summary": {
+            "anchor_cols": 832,
+            "nonzero_pairs": 548100,
+            "remove_cols": 113,
+            "rows": 580
+          },
+          "weight": 0.075
+        }
+      ]
+    },
+    "correct": 1395,
+    "delta_correct": 4,
+    "delta_vs_conservative_base": {
+      "changed": 23,
+      "harmful": 1,
+      "helpful": 5,
+      "neutral_correct": 0,
+      "neutral_wrong": 17
+    },
+    "n_selected": 3,
+    "preset": {
+      "max_changed": 400,
+      "max_harmful": 45,
+      "max_rules": 12,
+      "min_net_help": -1,
+      "min_single_delta": -1,
+      "name": "second_max12_loose"
+    },
+    "selected": [
+      {
+        "accuracy": 0.48167358229598894,
+        "accuracy_after": 0.48167358229598894,
+        "anchor_entity": "corn",
+        "assigned_proxy_delta": 1,
+        "candidate_id": "a00214",
+        "cluster": "veg",
+        "correct": 1393,
+        "correct_after": 1393,
+        "delta_correct": 2,
+        "incremental_correct": 2,
+        "incremental_delta": {
+          "changed": 7,
+          "harmful": 0,
+          "helpful": 2,
+          "neutral_correct": 0,
+          "neutral_wrong": 5
+        },
+        "observed_confusions": 1,
+        "op": "penalty",
+        "remove_entity": "lettuce",
+        "rowwise_changed": 3,
+        "rowwise_delta": 1,
+        "rowwise_harmful": 0,
+        "rowwise_helpful": 1,
+        "screen_score": 1272.94,
+        "signal_summary": {
+          "anchor_cols": 245,
+          "nonzero_pairs": 59856,
+          "remove_cols": 344,
+          "rows": 174
+        },
+        "weight": 0.4
+      },
+      {
+        "accuracy": 0.48132780082987553,
+        "accuracy_after": 0.48201936376210236,
+        "anchor_entity": "tomato",
+        "assigned_proxy_delta": 1,
+        "candidate_id": "a00138",
+        "cluster": "veg",
+        "correct": 1392,
+        "correct_after": 1394,
+        "delta_correct": 1,
+        "incremental_correct": 1,
+        "incremental_delta": {
+          "changed": 1,
+          "harmful": 0,
+          "helpful": 1,
+          "neutral_correct": 0,
+          "neutral_wrong": 0
+        },
+        "observed_confusions": 2,
+        "op": "penalty",
+        "remove_entity": "celery",
+        "rowwise_changed": 1,
+        "rowwise_delta": 1,
+        "rowwise_harmful": 0,
+        "rowwise_helpful": 1,
+        "screen_score": 1275.98,
+        "signal_summary": {
+          "anchor_cols": 840,
+          "nonzero_pairs": 51660,
+          "remove_cols": 90,
+          "rows": 574
+        },
+        "weight": 0.4
+      },
+      {
+        "accuracy": 0.4806362378976487,
+        "accuracy_after": 0.4823651452282158,
+        "anchor_entity": "tomato",
+        "assigned_proxy_delta": 0,
+        "candidate_id": "a00276",
+        "cluster": "veg",
+        "correct": 1390,
+        "correct_after": 1395,
+        "delta_correct": -1,
+        "incremental_correct": 1,
+        "incremental_delta": {
+          "changed": 18,
+          "harmful": 1,
+          "helpful": 2,
+          "neutral_correct": 0,
+          "neutral_wrong": 15
+        },
+        "observed_confusions": 4,
+        "op": "both",
+        "remove_entity": "mushroom",
+        "rowwise_changed": 12,
+        "rowwise_delta": 4,
+        "rowwise_harmful": 0,
+        "rowwise_helpful": 4,
+        "screen_score": 1091.76,
+        "signal_summary": {
+          "anchor_cols": 832,
+          "nonzero_pairs": 548100,
+          "remove_cols": 113,
+          "rows": 580
+        },
+        "weight": 0.075
+      }
+    ]
+  },
+  "best_submission": "optimization/submission-test2-clustered-ab-secondpass-20260501190646.csv",
+  "candidate_count": 94,
+  "definition": "Second-pass Test2 clustered A/B score nudges on top of aggressive Test2 clustered A/B.",
+  "elapsed_sec": 366.28255581855774,
+  "finished_at": "2026-05-01T19:12:52",
+  "max_screened": 420,
+  "min_pair_count": 1,
+  "observed_pair_count": 270,
+  "observed_pairs": [
+    {
+      "anchor_entity": "beef",
+      "cluster": "meat",
+      "observed_confusions": 23,
+      "remove_entity": "pork"
+    },
+    {
+      "anchor_entity": "pork",
+      "cluster": "meat",
+      "observed_confusions": 18,
+      "remove_entity": "beef"
+    },
+    {
+      "anchor_entity": "pork",
+      "cluster": "meat",
+      "observed_confusions": 16,
+      "remove_entity": "chicken"
+    },
+    {
+      "anchor_entity": "chicken",
+      "cluster": "meat",
+      "observed_confusions": 14,
+      "remove_entity": "pork"
+    },
+    {
+      "anchor_entity": "fried",
+      "cluster": "cooking",
+      "observed_confusions": 14,
+      "remove_entity": "roasted"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 12,
+      "remove_entity": "carrots"
+    },
+    {
+      "anchor_entity": "roasted",
+      "cluster": "cooking",
+      "observed_confusions": 11,
+      "remove_entity": "fried"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 10,
+      "remove_entity": "carrots"
+    },
+    {
+      "anchor_entity": "potato",
+      "cluster": "starch",
+      "observed_confusions": 9,
+      "remove_entity": "bread"
+    },
+    {
+      "anchor_entity": "pepper",
+      "cluster": "veg",
+      "observed_confusions": 9,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 9,
+      "remove_entity": "spinach"
+    },
+    {
+      "anchor_entity": "potato",
+      "cluster": "starch",
+      "observed_confusions": 8,
+      "remove_entity": "rice"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 8,
+      "remove_entity": "broccoli"
+    },
+    {
+      "anchor_entity": "roasted",
+      "cluster": "cooking",
+      "observed_confusions": 8,
+      "remove_entity": "grilled"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 8,
+      "remove_entity": "spinach"
+    },
+    {
+      "anchor_entity": "rice",
+      "cluster": "starch",
+      "observed_confusions": 8,
+      "remove_entity": "potato"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 8,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "beef",
+      "cluster": "meat",
+      "observed_confusions": 7,
+      "remove_entity": "chicken"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 7,
+      "remove_entity": "pepper"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 7,
+      "remove_entity": "onion"
+    },
+    {
+      "anchor_entity": "cucumber",
+      "cluster": "veg",
+      "observed_confusions": 7,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "fried",
+      "cluster": "cooking",
+      "observed_confusions": 7,
+      "remove_entity": "grilled"
+    },
+    {
+      "anchor_entity": "onion",
+      "cluster": "veg",
+      "observed_confusions": 6,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "green_beans",
+      "cluster": "veg",
+      "observed_confusions": 6,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "bun",
+      "cluster": "starch",
+      "observed_confusions": 6,
+      "remove_entity": "bread"
+    },
+    {
+      "anchor_entity": "cucumber",
+      "cluster": "veg",
+      "observed_confusions": 6,
+      "remove_entity": "lettuce"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 6,
+      "remove_entity": "cucumber"
+    },
+    {
+      "anchor_entity": "steamed",
+      "cluster": "cooking",
+      "observed_confusions": 6,
+      "remove_entity": "roasted"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 6,
+      "remove_entity": "lettuce"
+    },
+    {
+      "anchor_entity": "potato",
+      "cluster": "starch",
+      "observed_confusions": 5,
+      "remove_entity": "noodles"
+    },
+    {
+      "anchor_entity": "sandwich",
+      "cluster": "dish",
+      "observed_confusions": 5,
+      "remove_entity": "burger"
+    },
+    {
+      "anchor_entity": "pepper",
+      "cluster": "veg",
+      "observed_confusions": 5,
+      "remove_entity": "carrots"
+    },
+    {
+      "anchor_entity": "cucumber",
+      "cluster": "veg",
+      "observed_confusions": 5,
+      "remove_entity": "pepper"
+    },
+    {
+      "anchor_entity": "grilled",
+      "cluster": "cooking",
+      "observed_confusions": 5,
+      "remove_entity": "fried"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 5,
+      "remove_entity": "onion"
+    },
+    {
+      "anchor_entity": "bread",
+      "cluster": "starch",
+      "observed_confusions": 5,
+      "remove_entity": "rice"
+    },
+    {
+      "anchor_entity": "pasta",
+      "cluster": "starch",
+      "observed_confusions": 5,
+      "remove_entity": "noodles"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 5,
+      "remove_entity": "corn"
+    },
+    {
+      "anchor_entity": "green_beans",
+      "cluster": "veg",
+      "observed_confusions": 5,
+      "remove_entity": "broccoli"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 5,
+      "remove_entity": "spinach"
+    },
+    {
+      "anchor_entity": "lettuce",
+      "cluster": "veg",
+      "observed_confusions": 5,
+      "remove_entity": "spinach"
+    },
+    {
+      "anchor_entity": "cucumber",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "zucchini"
+    },
+    {
+      "anchor_entity": "onion",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "lettuce"
+    },
+    {
+      "anchor_entity": "pepper",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "lettuce"
+    },
+    {
+      "anchor_entity": "pepper",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "cucumber"
+    },
+    {
+      "anchor_entity": "peas",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "green_beans"
+    },
+    {
+      "anchor_entity": "steamed",
+      "cluster": "cooking",
+      "observed_confusions": 4,
+      "remove_entity": "fried"
+    },
+    {
+      "anchor_entity": "onion",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "pepper"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "peas"
+    },
+    {
+      "anchor_entity": "peas",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "carrots"
+    },
+    {
+      "anchor_entity": "spinach",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "carrots"
+    },
+    {
+      "anchor_entity": "pepper",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "spinach"
+    },
+    {
+      "anchor_entity": "corn",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "pepper"
+    },
+    {
+      "anchor_entity": "onion",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "cucumber"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "mushroom"
+    },
+    {
+      "anchor_entity": "green_beans",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "spinach"
+    },
+    {
+      "anchor_entity": "green_beans",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "lettuce"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "remove_entity": "lettuce"
+    },
+    {
+      "anchor_entity": "cabbage",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "carrots"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "zucchini"
+    },
+    {
+      "anchor_entity": "lemon",
+      "cluster": "fruit",
+      "observed_confusions": 3,
+      "remove_entity": "orange"
+    },
+    {
+      "anchor_entity": "spinach",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "broccoli"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "mushroom"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "zucchini"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "green_beans"
+    },
+    {
+      "anchor_entity": "cucumber",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "carrots"
+    },
+    {
+      "anchor_entity": "beef",
+      "cluster": "meat",
+      "observed_confusions": 3,
+      "remove_entity": "lamb"
+    },
+    {
+      "anchor_entity": "green_beans",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "cucumber"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "cucumber"
+    },
+    {
+      "anchor_entity": "toast",
+      "cluster": "starch",
+      "observed_confusions": 3,
+      "remove_entity": "bread"
+    },
+    {
+      "anchor_entity": "salad",
+      "cluster": "dish",
+      "observed_confusions": 3,
+      "remove_entity": "sandwich"
+    },
+    {
+      "anchor_entity": "pepper",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "onion"
+    },
+    {
+      "anchor_entity": "lettuce",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "onion"
+    },
+    {
+      "anchor_entity": "patty",
+      "cluster": "meat",
+      "observed_confusions": 3,
+      "remove_entity": "chicken"
+    },
+    {
+      "anchor_entity": "fried",
+      "cluster": "cooking",
+      "observed_confusions": 3,
+      "remove_entity": "steamed"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "roasted",
+      "cluster": "cooking",
+      "observed_confusions": 3,
+      "remove_entity": "steamed"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "celery"
+    },
+    {
+      "anchor_entity": "lettuce",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "corn",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "cabbage"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "onion"
+    },
+    {
+      "anchor_entity": "corn",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "spinach"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "asparagus"
+    },
+    {
+      "anchor_entity": "green_beans",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "pepper"
+    },
+    {
+      "anchor_entity": "lettuce",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "cucumber"
+    },
+    {
+      "anchor_entity": "zucchini",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "green_beans"
+    },
+    {
+      "anchor_entity": "onion",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "spinach"
+    },
+    {
+      "anchor_entity": "zucchini",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "pepper"
+    },
+    {
+      "anchor_entity": "spinach",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "lettuce"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "green_beans"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "pepper"
+    },
+    {
+      "anchor_entity": "spinach",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "zucchini"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "remove_entity": "corn"
+    },
+    {
+      "anchor_entity": "green_beans",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "carrots"
+    },
+    {
+      "anchor_entity": "mushroom",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "onion"
+    },
+    {
+      "anchor_entity": "potato",
+      "cluster": "starch",
+      "observed_confusions": 2,
+      "remove_entity": "bun"
+    },
+    {
+      "anchor_entity": "cucumber",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "onion"
+    },
+    {
+      "anchor_entity": "pork",
+      "cluster": "meat",
+      "observed_confusions": 2,
+      "remove_entity": "lamb"
+    },
+    {
+      "anchor_entity": "peas",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "celery"
+    },
+    {
+      "anchor_entity": "bread",
+      "cluster": "starch",
+      "observed_confusions": 2,
+      "remove_entity": "noodles"
+    },
+    {
+      "anchor_entity": "noodles",
+      "cluster": "starch",
+      "observed_confusions": 2,
+      "remove_entity": "rice"
+    },
+    {
+      "anchor_entity": "asparagus",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "onion"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "cucumber"
+    },
+    {
+      "anchor_entity": "onion",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "carrots"
+    },
+    {
+      "anchor_entity": "onion",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "green_beans"
+    },
+    {
+      "anchor_entity": "green_beans",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "onion"
+    },
+    {
+      "anchor_entity": "patty",
+      "cluster": "meat",
+      "observed_confusions": 2,
+      "remove_entity": "beef"
+    },
+    {
+      "anchor_entity": "burger",
+      "cluster": "dish",
+      "observed_confusions": 2,
+      "remove_entity": "sandwich"
+    },
+    {
+      "anchor_entity": "potato",
+      "cluster": "starch",
+      "observed_confusions": 2,
+      "remove_entity": "pasta"
+    },
+    {
+      "anchor_entity": "pork",
+      "cluster": "meat",
+      "observed_confusions": 2,
+      "remove_entity": "duck"
+    },
+    {
+      "anchor_entity": "pepper",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "peas"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "cabbage"
+    },
+    {
+      "anchor_entity": "corn",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "cucumber"
+    },
+    {
+      "anchor_entity": "cabbage",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "lettuce"
+    },
+    {
+      "anchor_entity": "bread",
+      "cluster": "starch",
+      "observed_confusions": 2,
+      "remove_entity": "bun"
+    },
+    {
+      "anchor_entity": "pasta",
+      "cluster": "starch",
+      "observed_confusions": 2,
+      "remove_entity": "potato"
+    },
+    {
+      "anchor_entity": "spinach",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "onion"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "corn"
+    },
+    {
+      "anchor_entity": "fried",
+      "cluster": "cooking",
+      "observed_confusions": 2,
+      "remove_entity": "baked"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "mushroom"
+    },
+    {
+      "anchor_entity": "lettuce",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "carrots"
+    },
+    {
+      "anchor_entity": "lettuce",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "corn"
+    },
+    {
+      "anchor_entity": "chicken",
+      "cluster": "meat",
+      "observed_confusions": 2,
+      "remove_entity": "patty"
+    },
+    {
+      "anchor_entity": "spinach",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "cucumber",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "asparagus"
+    },
+    {
+      "anchor_entity": "lamb",
+      "cluster": "meat",
+      "observed_confusions": 2,
+      "remove_entity": "beef"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "zucchini"
+    },
+    {
+      "anchor_entity": "spinach",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "mushroom"
+    },
+    {
+      "anchor_entity": "beef",
+      "cluster": "meat",
+      "observed_confusions": 2,
+      "remove_entity": "patty"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "asparagus"
+    },
+    {
+      "anchor_entity": "green_beans",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "mushroom"
+    },
+    {
+      "anchor_entity": "zucchini",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "cucumber"
+    },
+    {
+      "anchor_entity": "peas",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "broccoli"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "lettuce"
+    },
+    {
+      "anchor_entity": "sausage",
+      "cluster": "meat",
+      "observed_confusions": 2,
+      "remove_entity": "chicken"
+    },
+    {
+      "anchor_entity": "cucumber",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "spinach"
+    },
+    {
+      "anchor_entity": "baked",
+      "cluster": "cooking",
+      "observed_confusions": 2,
+      "remove_entity": "roasted"
+    },
+    {
+      "anchor_entity": "sausage",
+      "cluster": "meat",
+      "observed_confusions": 2,
+      "remove_entity": "pork"
+    },
+    {
+      "anchor_entity": "spinach",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "green_beans"
+    },
+    {
+      "anchor_entity": "grilled",
+      "cluster": "cooking",
+      "observed_confusions": 2,
+      "remove_entity": "roasted"
+    },
+    {
+      "anchor_entity": "spinach",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "pepper"
+    },
+    {
+      "anchor_entity": "zucchini",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "spinach"
+    },
+    {
+      "anchor_entity": "zucchini",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "broccoli"
+    },
+    {
+      "anchor_entity": "chicken",
+      "cluster": "meat",
+      "observed_confusions": 2,
+      "remove_entity": "beef"
+    },
+    {
+      "anchor_entity": "mushroom",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "corn"
+    },
+    {
+      "anchor_entity": "pepper",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "zucchini"
+    },
+    {
+      "anchor_entity": "pizza",
+      "cluster": "dish",
+      "observed_confusions": 2,
+      "remove_entity": "salad"
+    },
+    {
+      "anchor_entity": "green_beans",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "corn"
+    },
+    {
+      "anchor_entity": "cream_sauce",
+      "cluster": "dairy_sauce",
+      "observed_confusions": 2,
+      "remove_entity": "cheese"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "remove_entity": "celery"
+    },
+    {
+      "anchor_entity": "toast",
+      "cluster": "starch",
+      "observed_confusions": 1,
+      "remove_entity": "rice"
+    },
+    {
+      "anchor_entity": "beef",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "duck"
+    },
+    {
+      "anchor_entity": "patty",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "pork"
+    },
+    {
+      "anchor_entity": "pepper",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "avocado"
+    },
+    {
+      "anchor_entity": "bun",
+      "cluster": "starch",
+      "observed_confusions": 1,
+      "remove_entity": "potato"
+    },
+    {
+      "anchor_entity": "pepper",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "celery"
+    },
+    {
+      "anchor_entity": "burger",
+      "cluster": "dish",
+      "observed_confusions": 1,
+      "remove_entity": "salad"
+    },
+    {
+      "anchor_entity": "pork",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "patty"
+    },
+    {
+      "anchor_entity": "corn",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "green_beans"
+    },
+    {
+      "anchor_entity": "celery",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "pepper"
+    },
+    {
+      "anchor_entity": "celery",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "asparagus"
+    },
+    {
+      "anchor_entity": "lettuce",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "green_beans"
+    },
+    {
+      "anchor_entity": "asparagus",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "zucchini"
+    },
+    {
+      "anchor_entity": "cucumber",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "green_beans"
+    },
+    {
+      "anchor_entity": "noodles",
+      "cluster": "starch",
+      "observed_confusions": 1,
+      "remove_entity": "potato"
+    },
+    {
+      "anchor_entity": "meatball",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "beef"
+    },
+    {
+      "anchor_entity": "meatball",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "pork"
+    },
+    {
+      "anchor_entity": "celery",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "onion"
+    },
+    {
+      "anchor_entity": "celery",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "cucumber"
+    },
+    {
+      "anchor_entity": "corn",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "avocado"
+    },
+    {
+      "anchor_entity": "celery",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "corn"
+    },
+    {
+      "anchor_entity": "pasta",
+      "cluster": "starch",
+      "observed_confusions": 1,
+      "remove_entity": "bread"
+    },
+    {
+      "anchor_entity": "green_beans",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "asparagus"
+    },
+    {
+      "anchor_entity": "duck",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "pork"
+    },
+    {
+      "anchor_entity": "cake",
+      "cluster": "dish",
+      "observed_confusions": 1,
+      "remove_entity": "ice_cream"
+    },
+    {
+      "anchor_entity": "bread",
+      "cluster": "starch",
+      "observed_confusions": 1,
+      "remove_entity": "toast"
+    },
+    {
+      "anchor_entity": "pineapple",
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "remove_entity": "banana"
+    },
+    {
+      "anchor_entity": "lamb",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "pork"
+    },
+    {
+      "anchor_entity": "baked",
+      "cluster": "cooking",
+      "observed_confusions": 1,
+      "remove_entity": "fried"
+    },
+    {
+      "anchor_entity": "celery",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "broccoli"
+    },
+    {
+      "anchor_entity": "celery",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "peas"
+    },
+    {
+      "anchor_entity": "banana",
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "remove_entity": "mango"
+    },
+    {
+      "anchor_entity": "pepper",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "green_beans"
+    },
+    {
+      "anchor_entity": "zucchini",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "onion"
+    },
+    {
+      "anchor_entity": "banana",
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "remove_entity": "apple"
+    },
+    {
+      "anchor_entity": "asparagus",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "cucumber"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "celery"
+    },
+    {
+      "anchor_entity": "cucumber",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "celery"
+    },
+    {
+      "anchor_entity": "steamed",
+      "cluster": "cooking",
+      "observed_confusions": 1,
+      "remove_entity": "baked"
+    },
+    {
+      "anchor_entity": "green_beans",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "avocado"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "avocado"
+    },
+    {
+      "anchor_entity": "grapes",
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "remove_entity": "pineapple"
+    },
+    {
+      "anchor_entity": "orange",
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "remove_entity": "pineapple"
+    },
+    {
+      "anchor_entity": "cabbage",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "corn"
+    },
+    {
+      "anchor_entity": "asparagus",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "mushroom"
+    },
+    {
+      "anchor_entity": "asparagus",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "green_beans"
+    },
+    {
+      "anchor_entity": "asparagus",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "peas"
+    },
+    {
+      "anchor_entity": "duck",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "patty"
+    },
+    {
+      "anchor_entity": "onion",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "peas"
+    },
+    {
+      "anchor_entity": "noodles",
+      "cluster": "starch",
+      "observed_confusions": 1,
+      "remove_entity": "pasta"
+    },
+    {
+      "anchor_entity": "chicken",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "meatball"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "peas"
+    },
+    {
+      "anchor_entity": "lemon",
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "remove_entity": "berries"
+    },
+    {
+      "anchor_entity": "onion",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "corn"
+    },
+    {
+      "anchor_entity": "chicken",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "lamb"
+    },
+    {
+      "anchor_entity": "rice",
+      "cluster": "starch",
+      "observed_confusions": 1,
+      "remove_entity": "bread"
+    },
+    {
+      "anchor_entity": "corn",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "cabbage"
+    },
+    {
+      "anchor_entity": "tortilla",
+      "cluster": "starch",
+      "observed_confusions": 1,
+      "remove_entity": "bread"
+    },
+    {
+      "anchor_entity": "celery",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "soup",
+      "cluster": "dish",
+      "observed_confusions": 1,
+      "remove_entity": "burger"
+    },
+    {
+      "anchor_entity": "pineapple",
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "remove_entity": "orange"
+    },
+    {
+      "anchor_entity": "spinach",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "cucumber"
+    },
+    {
+      "anchor_entity": "spinach",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "corn"
+    },
+    {
+      "anchor_entity": "mango",
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "remove_entity": "lemon"
+    },
+    {
+      "anchor_entity": "lamb",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "chicken"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "cabbage"
+    },
+    {
+      "anchor_entity": "green_beans",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "peas"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "peas"
+    },
+    {
+      "anchor_entity": "cake",
+      "cluster": "dish",
+      "observed_confusions": 1,
+      "remove_entity": "pizza"
+    },
+    {
+      "anchor_entity": "celery",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "green_beans"
+    },
+    {
+      "anchor_entity": "berries",
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "remove_entity": "apple"
+    },
+    {
+      "anchor_entity": "pineapple",
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "remove_entity": "apple"
+    },
+    {
+      "anchor_entity": "baked",
+      "cluster": "cooking",
+      "observed_confusions": 1,
+      "remove_entity": "steamed"
+    },
+    {
+      "anchor_entity": "grapes",
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "remove_entity": "banana"
+    },
+    {
+      "anchor_entity": "zucchini",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "corn"
+    },
+    {
+      "anchor_entity": "peas",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "pepper"
+    },
+    {
+      "anchor_entity": "cabbage",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "green_beans"
+    },
+    {
+      "anchor_entity": "lettuce",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "pepper"
+    },
+    {
+      "anchor_entity": "crab",
+      "cluster": "seafood",
+      "observed_confusions": 1,
+      "remove_entity": "shrimp"
+    },
+    {
+      "anchor_entity": "peas",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "spinach"
+    },
+    {
+      "anchor_entity": "peas",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "mushroom"
+    },
+    {
+      "anchor_entity": "celery",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "spinach"
+    },
+    {
+      "anchor_entity": "celery",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "carrots"
+    },
+    {
+      "anchor_entity": "chicken",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "turkey"
+    },
+    {
+      "anchor_entity": "corn",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "mushroom"
+    },
+    {
+      "anchor_entity": "rice",
+      "cluster": "starch",
+      "observed_confusions": 1,
+      "remove_entity": "pasta"
+    },
+    {
+      "anchor_entity": "rice",
+      "cluster": "starch",
+      "observed_confusions": 1,
+      "remove_entity": "tortilla"
+    },
+    {
+      "anchor_entity": "pepper",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "corn"
+    },
+    {
+      "anchor_entity": "roasted",
+      "cluster": "cooking",
+      "observed_confusions": 1,
+      "remove_entity": "baked"
+    },
+    {
+      "anchor_entity": "sausage",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "turkey"
+    },
+    {
+      "anchor_entity": "pineapple",
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "remove_entity": "grapes"
+    },
+    {
+      "anchor_entity": "zucchini",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "green_beans"
+    },
+    {
+      "anchor_entity": "zucchini",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "asparagus"
+    },
+    {
+      "anchor_entity": "spinach",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "asparagus"
+    },
+    {
+      "anchor_entity": "carrots",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "asparagus"
+    },
+    {
+      "anchor_entity": "apple",
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "remove_entity": "mango"
+    },
+    {
+      "anchor_entity": "zucchini",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "lettuce"
+    },
+    {
+      "anchor_entity": "zucchini",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "carrots"
+    },
+    {
+      "anchor_entity": "lettuce",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "avocado"
+    },
+    {
+      "anchor_entity": "broccoli",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "pepper"
+    },
+    {
+      "anchor_entity": "corn",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "lettuce"
+    },
+    {
+      "anchor_entity": "lettuce",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "broccoli"
+    },
+    {
+      "anchor_entity": "mushroom",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "green_beans"
+    },
+    {
+      "anchor_entity": "cheese",
+      "cluster": "dairy_sauce",
+      "observed_confusions": 1,
+      "remove_entity": "cream_sauce"
+    },
+    {
+      "anchor_entity": "onion",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "celery"
+    },
+    {
+      "anchor_entity": "peas",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "lettuce"
+    },
+    {
+      "anchor_entity": "chicken",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "sausage"
+    },
+    {
+      "anchor_entity": "bread",
+      "cluster": "starch",
+      "observed_confusions": 1,
+      "remove_entity": "tortilla"
+    },
+    {
+      "anchor_entity": "bun",
+      "cluster": "starch",
+      "observed_confusions": 1,
+      "remove_entity": "tortilla"
+    },
+    {
+      "anchor_entity": "patty",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "lamb"
+    },
+    {
+      "anchor_entity": "turkey",
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "remove_entity": "beef"
+    },
+    {
+      "anchor_entity": "pasta",
+      "cluster": "starch",
+      "observed_confusions": 1,
+      "remove_entity": "rice"
+    },
+    {
+      "anchor_entity": "tomato",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "broccoli"
+    },
+    {
+      "anchor_entity": "zucchini",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "mushroom"
+    },
+    {
+      "anchor_entity": "avocado",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "asparagus",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "celery"
+    },
+    {
+      "anchor_entity": "asparagus",
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "remove_entity": "tomato"
+    },
+    {
+      "anchor_entity": "soup",
+      "cluster": "dish",
+      "observed_confusions": 1,
+      "remove_entity": "eggs"
+    }
+  ],
+  "ops": [
+    "penalty",
+    "boost",
+    "both"
+  ],
+  "outputs": {
+    "csv": "optimization/experiment_results/test2_clustered_ab_confusions_secondpass_20260501190646.csv"
+  },
+  "preset_results": [
+    {
+      "accuracy": 0.4823651452282158,
+      "assignment_summary": {
+        "accuracy": 0.4823651452282158,
+        "aggressive_base_accuracy": 0.4809820193637621,
+        "aggressive_base_correct": 1391,
+        "correct": 1395,
+        "delta_correct": 4,
+        "delta_vs_aggressive_base": {
+          "changed": 23,
+          "harmful": 1,
+          "helpful": 5,
+          "neutral_correct": 0,
+          "neutral_wrong": 17
+        },
+        "selected": [
+          {
+            "accuracy": 0.48167358229598894,
+            "accuracy_after": 0.48167358229598894,
+            "anchor_entity": "corn",
+            "assigned_proxy_delta": 1,
+            "candidate_id": "a00214",
+            "cluster": "veg",
+            "correct": 1393,
+            "correct_after": 1393,
+            "delta_correct": 2,
+            "incremental_correct": 2,
+            "incremental_delta": {
+              "changed": 7,
+              "harmful": 0,
+              "helpful": 2,
+              "neutral_correct": 0,
+              "neutral_wrong": 5
+            },
+            "observed_confusions": 1,
+            "op": "penalty",
+            "remove_entity": "lettuce",
+            "rowwise_changed": 3,
+            "rowwise_delta": 1,
+            "rowwise_harmful": 0,
+            "rowwise_helpful": 1,
+            "screen_score": 1272.94,
+            "signal_summary": {
+              "anchor_cols": 245,
+              "nonzero_pairs": 59856,
+              "remove_cols": 344,
+              "rows": 174
+            },
+            "weight": 0.4
+          },
+          {
+            "accuracy": 0.48132780082987553,
+            "accuracy_after": 0.48201936376210236,
+            "anchor_entity": "tomato",
+            "assigned_proxy_delta": 1,
+            "candidate_id": "a00138",
+            "cluster": "veg",
+            "correct": 1392,
+            "correct_after": 1394,
+            "delta_correct": 1,
+            "incremental_correct": 1,
+            "incremental_delta": {
+              "changed": 1,
+              "harmful": 0,
+              "helpful": 1,
+              "neutral_correct": 0,
+              "neutral_wrong": 0
+            },
+            "observed_confusions": 2,
+            "op": "penalty",
+            "remove_entity": "celery",
+            "rowwise_changed": 1,
+            "rowwise_delta": 1,
+            "rowwise_harmful": 0,
+            "rowwise_helpful": 1,
+            "screen_score": 1275.98,
+            "signal_summary": {
+              "anchor_cols": 840,
+              "nonzero_pairs": 51660,
+              "remove_cols": 90,
+              "rows": 574
+            },
+            "weight": 0.4
+          },
+          {
+            "accuracy": 0.4806362378976487,
+            "accuracy_after": 0.4823651452282158,
+            "anchor_entity": "tomato",
+            "assigned_proxy_delta": 0,
+            "candidate_id": "a00276",
+            "cluster": "veg",
+            "correct": 1390,
+            "correct_after": 1395,
+            "delta_correct": -1,
+            "incremental_correct": 1,
+            "incremental_delta": {
+              "changed": 18,
+              "harmful": 1,
+              "helpful": 2,
+              "neutral_correct": 0,
+              "neutral_wrong": 15
+            },
+            "observed_confusions": 4,
+            "op": "both",
+            "remove_entity": "mushroom",
+            "rowwise_changed": 12,
+            "rowwise_delta": 4,
+            "rowwise_harmful": 0,
+            "rowwise_helpful": 4,
+            "screen_score": 1091.76,
+            "signal_summary": {
+              "anchor_cols": 832,
+              "nonzero_pairs": 548100,
+              "remove_cols": 113,
+              "rows": 580
+            },
+            "weight": 0.075
+          }
+        ]
+      },
+      "correct": 1395,
+      "delta_correct": 4,
+      "delta_vs_conservative_base": {
+        "changed": 23,
+        "harmful": 1,
+        "helpful": 5,
+        "neutral_correct": 0,
+        "neutral_wrong": 17
+      },
+      "n_selected": 3,
+      "preset": {
+        "max_changed": 400,
+        "max_harmful": 45,
+        "max_rules": 12,
+        "min_net_help": -1,
+        "min_single_delta": -1,
+        "name": "second_max12_loose"
+      },
+      "selected": [
+        {
+          "accuracy": 0.48167358229598894,
+          "accuracy_after": 0.48167358229598894,
+          "anchor_entity": "corn",
+          "assigned_proxy_delta": 1,
+          "candidate_id": "a00214",
+          "cluster": "veg",
+          "correct": 1393,
+          "correct_after": 1393,
+          "delta_correct": 2,
+          "incremental_correct": 2,
+          "incremental_delta": {
+            "changed": 7,
+            "harmful": 0,
+            "helpful": 2,
+            "neutral_correct": 0,
+            "neutral_wrong": 5
+          },
+          "observed_confusions": 1,
+          "op": "penalty",
+          "remove_entity": "lettuce",
+          "rowwise_changed": 3,
+          "rowwise_delta": 1,
+          "rowwise_harmful": 0,
+          "rowwise_helpful": 1,
+          "screen_score": 1272.94,
+          "signal_summary": {
+            "anchor_cols": 245,
+            "nonzero_pairs": 59856,
+            "remove_cols": 344,
+            "rows": 174
+          },
+          "weight": 0.4
+        },
+        {
+          "accuracy": 0.48132780082987553,
+          "accuracy_after": 0.48201936376210236,
+          "anchor_entity": "tomato",
+          "assigned_proxy_delta": 1,
+          "candidate_id": "a00138",
+          "cluster": "veg",
+          "correct": 1392,
+          "correct_after": 1394,
+          "delta_correct": 1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 1,
+            "harmful": 0,
+            "helpful": 1,
+            "neutral_correct": 0,
+            "neutral_wrong": 0
+          },
+          "observed_confusions": 2,
+          "op": "penalty",
+          "remove_entity": "celery",
+          "rowwise_changed": 1,
+          "rowwise_delta": 1,
+          "rowwise_harmful": 0,
+          "rowwise_helpful": 1,
+          "screen_score": 1275.98,
+          "signal_summary": {
+            "anchor_cols": 840,
+            "nonzero_pairs": 51660,
+            "remove_cols": 90,
+            "rows": 574
+          },
+          "weight": 0.4
+        },
+        {
+          "accuracy": 0.4806362378976487,
+          "accuracy_after": 0.4823651452282158,
+          "anchor_entity": "tomato",
+          "assigned_proxy_delta": 0,
+          "candidate_id": "a00276",
+          "cluster": "veg",
+          "correct": 1390,
+          "correct_after": 1395,
+          "delta_correct": -1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 18,
+            "harmful": 1,
+            "helpful": 2,
+            "neutral_correct": 0,
+            "neutral_wrong": 15
+          },
+          "observed_confusions": 4,
+          "op": "both",
+          "remove_entity": "mushroom",
+          "rowwise_changed": 12,
+          "rowwise_delta": 4,
+          "rowwise_harmful": 0,
+          "rowwise_helpful": 4,
+          "screen_score": 1091.76,
+          "signal_summary": {
+            "anchor_cols": 832,
+            "nonzero_pairs": 548100,
+            "remove_cols": 113,
+            "rows": 580
+          },
+          "weight": 0.075
+        }
+      ]
+    },
+    {
+      "accuracy": 0.4823651452282158,
+      "correct": 1395,
+      "delta_correct": 4,
+      "delta_vs_conservative_base": {
+        "changed": 23,
+        "harmful": 1,
+        "helpful": 5,
+        "neutral_correct": 0,
+        "neutral_wrong": 17
+      },
+      "n_selected": 3,
+      "preset": {
+        "max_changed": 650,
+        "max_harmful": 75,
+        "max_rules": 18,
+        "min_net_help": -1,
+        "min_single_delta": -1,
+        "name": "second_max18_loose"
+      },
+      "selected": [
+        {
+          "accuracy": 0.48167358229598894,
+          "accuracy_after": 0.48167358229598894,
+          "anchor_entity": "corn",
+          "assigned_proxy_delta": 1,
+          "candidate_id": "a00214",
+          "cluster": "veg",
+          "correct": 1393,
+          "correct_after": 1393,
+          "delta_correct": 2,
+          "incremental_correct": 2,
+          "incremental_delta": {
+            "changed": 7,
+            "harmful": 0,
+            "helpful": 2,
+            "neutral_correct": 0,
+            "neutral_wrong": 5
+          },
+          "observed_confusions": 1,
+          "op": "penalty",
+          "remove_entity": "lettuce",
+          "rowwise_changed": 3,
+          "rowwise_delta": 1,
+          "rowwise_harmful": 0,
+          "rowwise_helpful": 1,
+          "screen_score": 1272.94,
+          "signal_summary": {
+            "anchor_cols": 245,
+            "nonzero_pairs": 59856,
+            "remove_cols": 344,
+            "rows": 174
+          },
+          "weight": 0.4
+        },
+        {
+          "accuracy": 0.48132780082987553,
+          "accuracy_after": 0.48201936376210236,
+          "anchor_entity": "tomato",
+          "assigned_proxy_delta": 1,
+          "candidate_id": "a00138",
+          "cluster": "veg",
+          "correct": 1392,
+          "correct_after": 1394,
+          "delta_correct": 1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 1,
+            "harmful": 0,
+            "helpful": 1,
+            "neutral_correct": 0,
+            "neutral_wrong": 0
+          },
+          "observed_confusions": 2,
+          "op": "penalty",
+          "remove_entity": "celery",
+          "rowwise_changed": 1,
+          "rowwise_delta": 1,
+          "rowwise_harmful": 0,
+          "rowwise_helpful": 1,
+          "screen_score": 1275.98,
+          "signal_summary": {
+            "anchor_cols": 840,
+            "nonzero_pairs": 51660,
+            "remove_cols": 90,
+            "rows": 574
+          },
+          "weight": 0.4
+        },
+        {
+          "accuracy": 0.4806362378976487,
+          "accuracy_after": 0.4823651452282158,
+          "anchor_entity": "tomato",
+          "assigned_proxy_delta": 0,
+          "candidate_id": "a00276",
+          "cluster": "veg",
+          "correct": 1390,
+          "correct_after": 1395,
+          "delta_correct": -1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 18,
+            "harmful": 1,
+            "helpful": 2,
+            "neutral_correct": 0,
+            "neutral_wrong": 15
+          },
+          "observed_confusions": 4,
+          "op": "both",
+          "remove_entity": "mushroom",
+          "rowwise_changed": 12,
+          "rowwise_delta": 4,
+          "rowwise_harmful": 0,
+          "rowwise_helpful": 4,
+          "screen_score": 1091.76,
+          "signal_summary": {
+            "anchor_cols": 832,
+            "nonzero_pairs": 548100,
+            "remove_cols": 113,
+            "rows": 580
+          },
+          "weight": 0.075
+        }
+      ]
+    },
+    {
+      "accuracy": 0.48201936376210236,
+      "correct": 1394,
+      "delta_correct": 3,
+      "delta_vs_conservative_base": {
+        "changed": 8,
+        "harmful": 0,
+        "helpful": 3,
+        "neutral_correct": 0,
+        "neutral_wrong": 5
+      },
+      "n_selected": 2,
+      "preset": {
+        "max_changed": 180,
+        "max_harmful": 20,
+        "max_rules": 4,
+        "min_net_help": 0,
+        "min_single_delta": 0,
+        "name": "second_max4_safe"
+      },
+      "selected": [
+        {
+          "accuracy": 0.48167358229598894,
+          "accuracy_after": 0.48167358229598894,
+          "anchor_entity": "corn",
+          "assigned_proxy_delta": 1,
+          "candidate_id": "a00214",
+          "cluster": "veg",
+          "correct": 1393,
+          "correct_after": 1393,
+          "delta_correct": 2,
+          "incremental_correct": 2,
+          "incremental_delta": {
+            "changed": 7,
+            "harmful": 0,
+            "helpful": 2,
+            "neutral_correct": 0,
+            "neutral_wrong": 5
+          },
+          "observed_confusions": 1,
+          "op": "penalty",
+          "remove_entity": "lettuce",
+          "rowwise_changed": 3,
+          "rowwise_delta": 1,
+          "rowwise_harmful": 0,
+          "rowwise_helpful": 1,
+          "screen_score": 1272.94,
+          "signal_summary": {
+            "anchor_cols": 245,
+            "nonzero_pairs": 59856,
+            "remove_cols": 344,
+            "rows": 174
+          },
+          "weight": 0.4
+        },
+        {
+          "accuracy": 0.48132780082987553,
+          "accuracy_after": 0.48201936376210236,
+          "anchor_entity": "tomato",
+          "assigned_proxy_delta": 1,
+          "candidate_id": "a00138",
+          "cluster": "veg",
+          "correct": 1392,
+          "correct_after": 1394,
+          "delta_correct": 1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 1,
+            "harmful": 0,
+            "helpful": 1,
+            "neutral_correct": 0,
+            "neutral_wrong": 0
+          },
+          "observed_confusions": 2,
+          "op": "penalty",
+          "remove_entity": "celery",
+          "rowwise_changed": 1,
+          "rowwise_delta": 1,
+          "rowwise_harmful": 0,
+          "rowwise_helpful": 1,
+          "screen_score": 1275.98,
+          "signal_summary": {
+            "anchor_cols": 840,
+            "nonzero_pairs": 51660,
+            "remove_cols": 90,
+            "rows": 574
+          },
+          "weight": 0.4
+        }
+      ]
+    },
+    {
+      "accuracy": 0.48201936376210236,
+      "correct": 1394,
+      "delta_correct": 3,
+      "delta_vs_conservative_base": {
+        "changed": 8,
+        "harmful": 0,
+        "helpful": 3,
+        "neutral_correct": 0,
+        "neutral_wrong": 5
+      },
+      "n_selected": 2,
+      "preset": {
+        "max_changed": 250,
+        "max_harmful": 30,
+        "max_rules": 8,
+        "min_net_help": 0,
+        "min_single_delta": 0,
+        "name": "second_max8_safe"
+      },
+      "selected": [
+        {
+          "accuracy": 0.48167358229598894,
+          "accuracy_after": 0.48167358229598894,
+          "anchor_entity": "corn",
+          "assigned_proxy_delta": 1,
+          "candidate_id": "a00214",
+          "cluster": "veg",
+          "correct": 1393,
+          "correct_after": 1393,
+          "delta_correct": 2,
+          "incremental_correct": 2,
+          "incremental_delta": {
+            "changed": 7,
+            "harmful": 0,
+            "helpful": 2,
+            "neutral_correct": 0,
+            "neutral_wrong": 5
+          },
+          "observed_confusions": 1,
+          "op": "penalty",
+          "remove_entity": "lettuce",
+          "rowwise_changed": 3,
+          "rowwise_delta": 1,
+          "rowwise_harmful": 0,
+          "rowwise_helpful": 1,
+          "screen_score": 1272.94,
+          "signal_summary": {
+            "anchor_cols": 245,
+            "nonzero_pairs": 59856,
+            "remove_cols": 344,
+            "rows": 174
+          },
+          "weight": 0.4
+        },
+        {
+          "accuracy": 0.48132780082987553,
+          "accuracy_after": 0.48201936376210236,
+          "anchor_entity": "tomato",
+          "assigned_proxy_delta": 1,
+          "candidate_id": "a00138",
+          "cluster": "veg",
+          "correct": 1392,
+          "correct_after": 1394,
+          "delta_correct": 1,
+          "incremental_correct": 1,
+          "incremental_delta": {
+            "changed": 1,
+            "harmful": 0,
+            "helpful": 1,
+            "neutral_correct": 0,
+            "neutral_wrong": 0
+          },
+          "observed_confusions": 2,
+          "op": "penalty",
+          "remove_entity": "celery",
+          "rowwise_changed": 1,
+          "rowwise_delta": 1,
+          "rowwise_harmful": 0,
+          "rowwise_helpful": 1,
+          "screen_score": 1275.98,
+          "signal_summary": {
+            "anchor_cols": 840,
+            "nonzero_pairs": 51660,
+            "remove_cols": 90,
+            "rows": 574
+          },
+          "weight": 0.4
+        }
+      ]
+    }
+  ],
+  "run_id": "test2_clustered_ab_confusions_secondpass_20260501190646",
+  "screened_count": 420,
+  "script": "optimization/evaluate_test2_clustered_ab_confusions_secondpass-20260501.py",
+  "top_candidates": [
+    {
+      "accuracy": 0.48167358229598894,
+      "anchor_entity": "corn",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00214",
+      "cluster": "veg",
+      "correct": 1393,
+      "delta_correct": 2,
+      "delta_vs_base": {
+        "changed": 7,
+        "harmful": 0,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 5
+      },
+      "observed_confusions": 1,
+      "op": "penalty",
+      "remove_entity": "lettuce",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1272.94,
+      "signal_summary": {
+        "anchor_cols": 245,
+        "nonzero_pairs": 59856,
+        "remove_cols": 344,
+        "rows": 174
+      },
+      "weight": 0.4
+    },
+    {
+      "accuracy": 0.48132780082987553,
+      "anchor_entity": "roasted",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00050",
+      "cluster": "cooking",
+      "correct": 1392,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 18,
+        "harmful": 2,
+        "helpful": 3,
+        "neutral_correct": 0,
+        "neutral_wrong": 13
+      },
+      "observed_confusions": 3,
+      "op": "penalty",
+      "remove_entity": "steamed",
+      "rowwise_changed": 9,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1548.82,
+      "signal_summary": {
+        "anchor_cols": 430,
+        "nonzero_pairs": 75460,
+        "remove_cols": 154,
+        "rows": 490
+      },
+      "weight": 0.4
+    },
+    {
+      "accuracy": 0.48132780082987553,
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00138",
+      "cluster": "veg",
+      "correct": 1392,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 1,
+        "harmful": 0,
+        "helpful": 1,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 2,
+      "op": "penalty",
+      "remove_entity": "celery",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1275.98,
+      "signal_summary": {
+        "anchor_cols": 840,
+        "nonzero_pairs": 51660,
+        "remove_cols": 90,
+        "rows": 574
+      },
+      "weight": 0.4
+    },
+    {
+      "accuracy": 0.48132780082987553,
+      "anchor_entity": "corn",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00213",
+      "cluster": "veg",
+      "correct": 1392,
+      "delta_correct": 1,
+      "delta_vs_base": {
+        "changed": 6,
+        "harmful": 0,
+        "helpful": 1,
+        "neutral_correct": 0,
+        "neutral_wrong": 5
+      },
+      "observed_confusions": 1,
+      "op": "penalty",
+      "remove_entity": "lettuce",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1272.94,
+      "signal_summary": {
+        "anchor_cols": 245,
+        "nonzero_pairs": 59856,
+        "remove_cols": 344,
+        "rows": 174
+      },
+      "weight": 0.3
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00053",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 0,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "onion",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 7965,
+        "remove_cols": 289,
+        "rows": 59
+      },
+      "weight": 0.02
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00058",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 0,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 2,
+      "op": "both",
+      "remove_entity": "onion",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 25016,
+        "remove_cols": 289,
+        "rows": 59
+      },
+      "weight": 0.03
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00059",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 0,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 2,
+      "op": "both",
+      "remove_entity": "onion",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 25016,
+        "remove_cols": 289,
+        "rows": 59
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00069",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 0,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 8235,
+        "remove_cols": 278,
+        "rows": 61
+      },
+      "weight": 0.03
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00072",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 0,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.92,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 8235,
+        "remove_cols": 278,
+        "rows": 61
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "pork",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00094",
+      "cluster": "meat",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 0,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 18,
+      "op": "penalty",
+      "remove_entity": "beef",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1323.96,
+      "signal_summary": {
+        "anchor_cols": 510,
+        "nonzero_pairs": 110916,
+        "remove_cols": 468,
+        "rows": 237
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "corn",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00109",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 1,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 4,
+      "op": "boost",
+      "remove_entity": "pepper",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1281.98,
+      "signal_summary": {
+        "anchor_cols": 250,
+        "nonzero_pairs": 41500,
+        "remove_cols": 292,
+        "rows": 166
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "corn",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00121",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 1,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 3,
+      "op": "boost",
+      "remove_entity": "spinach",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1278.98,
+      "signal_summary": {
+        "anchor_cols": 254,
+        "nonzero_pairs": 42926,
+        "remove_cols": 296,
+        "rows": 169
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "corn",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00123",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 1,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 3,
+      "op": "both",
+      "remove_entity": "spinach",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1278.98,
+      "signal_summary": {
+        "anchor_cols": 254,
+        "nonzero_pairs": 92950,
+        "remove_cols": 296,
+        "rows": 169
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "corn",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00136",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 1,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "cucumber",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1275.98,
+      "signal_summary": {
+        "anchor_cols": 259,
+        "nonzero_pairs": 47397,
+        "remove_cols": 203,
+        "rows": 183
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00144",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 0,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "corn",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1275.96,
+      "signal_summary": {
+        "anchor_cols": 144,
+        "nonzero_pairs": 9648,
+        "remove_cols": 257,
+        "rows": 67
+      },
+      "weight": 0.03
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00145",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 0,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "corn",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1275.96,
+      "signal_summary": {
+        "anchor_cols": 144,
+        "nonzero_pairs": 9648,
+        "remove_cols": 257,
+        "rows": 67
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00150",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 1,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 2,
+      "op": "both",
+      "remove_entity": "corn",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1275.96,
+      "signal_summary": {
+        "anchor_cols": 144,
+        "nonzero_pairs": 26867,
+        "remove_cols": 257,
+        "rows": 67
+      },
+      "weight": 0.03
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "baked",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00147",
+      "cluster": "cooking",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 9,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 9
+      },
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "roasted",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1275.96,
+      "signal_summary": {
+        "anchor_cols": 109,
+        "nonzero_pairs": 14715,
+        "remove_cols": 438,
+        "rows": 135
+      },
+      "weight": 0.1
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "sausage",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00160",
+      "cluster": "meat",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 9,
+        "harmful": 2,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 5
+      },
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "chicken",
+      "rowwise_changed": 4,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1275.92,
+      "signal_summary": {
+        "anchor_cols": 95,
+        "nonzero_pairs": 4655,
+        "remove_cols": 848,
+        "rows": 49
+      },
+      "weight": 0.4
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "sausage",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00163",
+      "cluster": "meat",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 9,
+        "harmful": 2,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 5
+      },
+      "observed_confusions": 2,
+      "op": "both",
+      "remove_entity": "chicken",
+      "rowwise_changed": 4,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1275.92,
+      "signal_summary": {
+        "anchor_cols": 95,
+        "nonzero_pairs": 46207,
+        "remove_cols": 848,
+        "rows": 49
+      },
+      "weight": 0.4
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "corn",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00175",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 1,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "cabbage",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1272.98,
+      "signal_summary": {
+        "anchor_cols": 263,
+        "nonzero_pairs": 48918,
+        "remove_cols": 69,
+        "rows": 186
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "corn",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00177",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 1,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "avocado",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1272.98,
+      "signal_summary": {
+        "anchor_cols": 263,
+        "nonzero_pairs": 49444,
+        "remove_cols": 58,
+        "rows": 188
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "corn",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00179",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 1,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "avocado",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1272.98,
+      "signal_summary": {
+        "anchor_cols": 263,
+        "nonzero_pairs": 60348,
+        "remove_cols": 58,
+        "rows": 188
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "corn",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00181",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 1,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "cabbage",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1272.98,
+      "signal_summary": {
+        "anchor_cols": 263,
+        "nonzero_pairs": 61752,
+        "remove_cols": 69,
+        "rows": 186
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "baked",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00190",
+      "cluster": "cooking",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 3,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 3
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "fried",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1272.96,
+      "signal_summary": {
+        "anchor_cols": 101,
+        "nonzero_pairs": 13736,
+        "remove_cols": 708,
+        "rows": 136
+      },
+      "weight": 0.1
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "spinach",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00318",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 36,
+        "harmful": 6,
+        "helpful": 6,
+        "neutral_correct": 0,
+        "neutral_wrong": 24
+      },
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "tomato",
+      "rowwise_changed": 12,
+      "rowwise_delta": -1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 1,
+      "screen_score": 725.76,
+      "signal_summary": {
+        "anchor_cols": 242,
+        "nonzero_pairs": 39688,
+        "remove_cols": 806,
+        "rows": 164
+      },
+      "weight": 0.3
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "pepper",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00334",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 4,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 4
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "celery",
+      "rowwise_changed": 2,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 542.96,
+      "signal_summary": {
+        "anchor_cols": 283,
+        "nonzero_pairs": 97660,
+        "remove_cols": 97,
+        "rows": 257
+      },
+      "weight": 0.03
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "carrots",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00363",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 0,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 8,
+      "op": "penalty",
+      "remove_entity": "broccoli",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 293.96,
+      "signal_summary": {
+        "anchor_cols": 608,
+        "nonzero_pairs": 193158,
+        "remove_cols": 441,
+        "rows": 438
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "pepper",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00377",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 5,
+      "op": "boost",
+      "remove_entity": "carrots",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 284.96,
+      "signal_summary": {
+        "anchor_cols": 245,
+        "nonzero_pairs": 52675,
+        "remove_cols": 721,
+        "rows": 215
+      },
+      "weight": 0.03
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "green_beans",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00379",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 3,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 3
+      },
+      "observed_confusions": 5,
+      "op": "boost",
+      "remove_entity": "broccoli",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 284.94,
+      "signal_summary": {
+        "anchor_cols": 273,
+        "nonzero_pairs": 31395,
+        "remove_cols": 594,
+        "rows": 115
+      },
+      "weight": 0.15
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "pepper",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00398",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 4,
+      "op": "boost",
+      "remove_entity": "spinach",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 281.98,
+      "signal_summary": {
+        "anchor_cols": 283,
+        "nonzero_pairs": 74995,
+        "remove_cols": 283,
+        "rows": 265
+      },
+      "weight": 0.03
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "onion",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00413",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 0,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 4,
+      "op": "boost",
+      "remove_entity": "pepper",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 281.96,
+      "signal_summary": {
+        "anchor_cols": 258,
+        "nonzero_pairs": 44892,
+        "remove_cols": 259,
+        "rows": 174
+      },
+      "weight": 0.01
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "onion",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00415",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 0,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 4,
+      "op": "boost",
+      "remove_entity": "pepper",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 281.96,
+      "signal_summary": {
+        "anchor_cols": 258,
+        "nonzero_pairs": 44892,
+        "remove_cols": 259,
+        "rows": 174
+      },
+      "weight": 0.02
+    },
+    {
+      "accuracy": 0.4809820193637621,
+      "anchor_entity": "onion",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00416",
+      "cluster": "veg",
+      "correct": 1391,
+      "delta_correct": 0,
+      "delta_vs_base": {
+        "changed": 0,
+        "harmful": 0,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 4,
+      "op": "boost",
+      "remove_entity": "pepper",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 281.96,
+      "signal_summary": {
+        "anchor_cols": 258,
+        "nonzero_pairs": 44892,
+        "remove_cols": 259,
+        "rows": 174
+      },
+      "weight": 0.03
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "candidate_id": "a00013",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 11,
+        "harmful": 3,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 6
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "apple",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 123,
+        "nonzero_pairs": 9471,
+        "remove_cols": 101,
+        "rows": 77
+      },
+      "weight": 0.2
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "candidate_id": "a00015",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 11,
+        "harmful": 3,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 6
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "orange",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 125,
+        "nonzero_pairs": 9500,
+        "remove_cols": 158,
+        "rows": 76
+      },
+      "weight": 0.2
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "candidate_id": "a00019",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 11,
+        "harmful": 3,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 6
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "apple",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 123,
+        "nonzero_pairs": 17248,
+        "remove_cols": 101,
+        "rows": 77
+      },
+      "weight": 0.2
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "candidate_id": "a00021",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 11,
+        "harmful": 3,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 6
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "orange",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 125,
+        "nonzero_pairs": 21508,
+        "remove_cols": 158,
+        "rows": 76
+      },
+      "weight": 0.2
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00056",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "onion",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 7965,
+        "remove_cols": 289,
+        "rows": 59
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00075",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 3,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.92,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 25193,
+        "remove_cols": 278,
+        "rows": 61
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00078",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 5,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.9,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 8235,
+        "remove_cols": 278,
+        "rows": 61
+      },
+      "weight": 0.1
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00085",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 21,
+        "harmful": 3,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 16
+      },
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "celery",
+      "rowwise_changed": 12,
+      "rowwise_delta": 5,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 5,
+      "screen_score": 1355.76,
+      "signal_summary": {
+        "anchor_cols": 840,
+        "nonzero_pairs": 482160,
+        "remove_cols": 90,
+        "rows": 574
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pasta",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00108",
+      "cluster": "starch",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 12,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 11
+      },
+      "observed_confusions": 5,
+      "op": "both",
+      "remove_entity": "noodles",
+      "rowwise_changed": 6,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1284.88,
+      "signal_summary": {
+        "anchor_cols": 128,
+        "nonzero_pairs": 15360,
+        "remove_cols": 64,
+        "rows": 80
+      },
+      "weight": 0.2
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "corn",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00137",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "cucumber",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1275.98,
+      "signal_summary": {
+        "anchor_cols": 259,
+        "nonzero_pairs": 47397,
+        "remove_cols": 203,
+        "rows": 183
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "corn",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00140",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 2,
+      "op": "both",
+      "remove_entity": "cucumber",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1275.98,
+      "signal_summary": {
+        "anchor_cols": 259,
+        "nonzero_pairs": 84546,
+        "remove_cols": 203,
+        "rows": 183
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "sausage",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00188",
+      "cluster": "meat",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 3,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "turkey",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1272.96,
+      "signal_summary": {
+        "anchor_cols": 110,
+        "nonzero_pairs": 5390,
+        "remove_cols": 22,
+        "rows": 49
+      },
+      "weight": 0.4
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "cabbage",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00192",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 4,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 3
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1272.96,
+      "signal_summary": {
+        "anchor_cols": 68,
+        "nonzero_pairs": 20160,
+        "remove_cols": 292,
+        "rows": 56
+      },
+      "weight": 0.15
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "corn",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00212",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 8,
+        "harmful": 2,
+        "helpful": 1,
+        "neutral_correct": 0,
+        "neutral_wrong": 5
+      },
+      "observed_confusions": 1,
+      "op": "penalty",
+      "remove_entity": "lettuce",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1272.94,
+      "signal_summary": {
+        "anchor_cols": 245,
+        "nonzero_pairs": 59856,
+        "remove_cols": 344,
+        "rows": 174
+      },
+      "weight": 0.2
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "baked",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00211",
+      "cluster": "cooking",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 11,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 10
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "steamed",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1272.94,
+      "signal_summary": {
+        "anchor_cols": 104,
+        "nonzero_pairs": 36540,
+        "remove_cols": 157,
+        "rows": 140
+      },
+      "weight": 0.1
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "baked",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00209",
+      "cluster": "cooking",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 12,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 11
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "steamed",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1272.94,
+      "signal_summary": {
+        "anchor_cols": 104,
+        "nonzero_pairs": 14560,
+        "remove_cols": 157,
+        "rows": 140
+      },
+      "weight": 0.15
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00235",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "grapes",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.94,
+      "signal_summary": {
+        "anchor_cols": 117,
+        "nonzero_pairs": 8424,
+        "remove_cols": 112,
+        "rows": 72
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00238",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "banana",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.94,
+      "signal_summary": {
+        "anchor_cols": 122,
+        "nonzero_pairs": 9272,
+        "remove_cols": 43,
+        "rows": 76
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00241",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "apple",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.94,
+      "signal_summary": {
+        "anchor_cols": 123,
+        "nonzero_pairs": 9471,
+        "remove_cols": 101,
+        "rows": 77
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00244",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "orange",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.94,
+      "signal_summary": {
+        "anchor_cols": 125,
+        "nonzero_pairs": 9500,
+        "remove_cols": 158,
+        "rows": 76
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00247",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "banana",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.94,
+      "signal_summary": {
+        "anchor_cols": 122,
+        "nonzero_pairs": 12540,
+        "remove_cols": 43,
+        "rows": 76
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00250",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "grapes",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.94,
+      "signal_summary": {
+        "anchor_cols": 117,
+        "nonzero_pairs": 16488,
+        "remove_cols": 112,
+        "rows": 72
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00253",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "apple",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.94,
+      "signal_summary": {
+        "anchor_cols": 123,
+        "nonzero_pairs": 17248,
+        "remove_cols": 101,
+        "rows": 77
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00256",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "orange",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.94,
+      "signal_summary": {
+        "anchor_cols": 125,
+        "nonzero_pairs": 21508,
+        "remove_cols": 158,
+        "rows": 76
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00236",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 3,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "grapes",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.94,
+      "signal_summary": {
+        "anchor_cols": 117,
+        "nonzero_pairs": 8424,
+        "remove_cols": 112,
+        "rows": 72
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00251",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 3,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "grapes",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.94,
+      "signal_summary": {
+        "anchor_cols": 117,
+        "nonzero_pairs": 16488,
+        "remove_cols": 112,
+        "rows": 72
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00237",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 5,
+        "harmful": 2,
+        "helpful": 1,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "grapes",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.94,
+      "signal_summary": {
+        "anchor_cols": 117,
+        "nonzero_pairs": 8424,
+        "remove_cols": 112,
+        "rows": 72
+      },
+      "weight": 0.1
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00240",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 5,
+        "harmful": 2,
+        "helpful": 1,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "banana",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.94,
+      "signal_summary": {
+        "anchor_cols": 122,
+        "nonzero_pairs": 9272,
+        "remove_cols": 43,
+        "rows": 76
+      },
+      "weight": 0.1
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00249",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 5,
+        "harmful": 2,
+        "helpful": 1,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "banana",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.94,
+      "signal_summary": {
+        "anchor_cols": 122,
+        "nonzero_pairs": 12540,
+        "remove_cols": 43,
+        "rows": 76
+      },
+      "weight": 0.1
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00255",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 5,
+        "harmful": 2,
+        "helpful": 1,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "apple",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.94,
+      "signal_summary": {
+        "anchor_cols": 123,
+        "nonzero_pairs": 17248,
+        "remove_cols": 101,
+        "rows": 77
+      },
+      "weight": 0.1
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00258",
+      "cluster": "fruit",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 5,
+        "harmful": 2,
+        "helpful": 1,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "orange",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.94,
+      "signal_summary": {
+        "anchor_cols": 125,
+        "nonzero_pairs": 21508,
+        "remove_cols": 158,
+        "rows": 76
+      },
+      "weight": 0.1
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "baked",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00260",
+      "cluster": "cooking",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 4,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 3
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "fried",
+      "rowwise_changed": 6,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 1267.88,
+      "signal_summary": {
+        "anchor_cols": 101,
+        "nonzero_pairs": 110024,
+        "remove_cols": 708,
+        "rows": 136
+      },
+      "weight": 0.1
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00276",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 21,
+        "harmful": 3,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 16
+      },
+      "observed_confusions": 4,
+      "op": "both",
+      "remove_entity": "mushroom",
+      "rowwise_changed": 12,
+      "rowwise_delta": 4,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 4,
+      "screen_score": 1091.76,
+      "signal_summary": {
+        "anchor_cols": 832,
+        "nonzero_pairs": 548100,
+        "remove_cols": 113,
+        "rows": 580
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00278",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 24,
+        "harmful": 3,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 19
+      },
+      "observed_confusions": 3,
+      "op": "both",
+      "remove_entity": "asparagus",
+      "rowwise_changed": 12,
+      "rowwise_delta": 4,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 4,
+      "screen_score": 1088.76,
+      "signal_summary": {
+        "anchor_cols": 848,
+        "nonzero_pairs": 539274,
+        "remove_cols": 85,
+        "rows": 578
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00281",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 23,
+        "harmful": 3,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 18
+      },
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "cabbage",
+      "rowwise_changed": 12,
+      "rowwise_delta": 4,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 4,
+      "screen_score": 1085.76,
+      "signal_summary": {
+        "anchor_cols": 851,
+        "nonzero_pairs": 494431,
+        "remove_cols": 51,
+        "rows": 581
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00282",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 23,
+        "harmful": 3,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 18
+      },
+      "observed_confusions": 2,
+      "op": "both",
+      "remove_entity": "cabbage",
+      "rowwise_changed": 12,
+      "rowwise_delta": 4,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 4,
+      "screen_score": 1085.76,
+      "signal_summary": {
+        "anchor_cols": 851,
+        "nonzero_pairs": 524062,
+        "remove_cols": 51,
+        "rows": 581
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00286",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 23,
+        "harmful": 3,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 18
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "avocado",
+      "rowwise_changed": 12,
+      "rowwise_delta": 4,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 4,
+      "screen_score": 1082.76,
+      "signal_summary": {
+        "anchor_cols": 843,
+        "nonzero_pairs": 486411,
+        "remove_cols": 32,
+        "rows": 577
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00287",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 23,
+        "harmful": 3,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 18
+      },
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "avocado",
+      "rowwise_changed": 12,
+      "rowwise_delta": 4,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 4,
+      "screen_score": 1082.76,
+      "signal_summary": {
+        "anchor_cols": 843,
+        "nonzero_pairs": 504875,
+        "remove_cols": 32,
+        "rows": 577
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "peas",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00289",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 7,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 6
+      },
+      "observed_confusions": 4,
+      "op": "boost",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 3,
+      "rowwise_delta": 0,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 1,
+      "screen_score": 1006.94,
+      "signal_summary": {
+        "anchor_cols": 85,
+        "nonzero_pairs": 19975,
+        "remove_cols": 274,
+        "rows": 235
+      },
+      "weight": 0.1
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "peas",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00290",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 12,
+        "harmful": 2,
+        "helpful": 1,
+        "neutral_correct": 0,
+        "neutral_wrong": 9
+      },
+      "observed_confusions": 4,
+      "op": "boost",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 5,
+      "rowwise_delta": 0,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 1,
+      "screen_score": 1006.9,
+      "signal_summary": {
+        "anchor_cols": 85,
+        "nonzero_pairs": 19975,
+        "remove_cols": 274,
+        "rows": 235
+      },
+      "weight": 0.15
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00313",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 23,
+        "harmful": 3,
+        "helpful": 2,
+        "neutral_correct": 0,
+        "neutral_wrong": 18
+      },
+      "observed_confusions": 3,
+      "op": "boost",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 10,
+      "rowwise_delta": 3,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 3,
+      "screen_score": 818.8,
+      "signal_summary": {
+        "anchor_cols": 825,
+        "nonzero_pairs": 466125,
+        "remove_cols": 249,
+        "rows": 565
+      },
+      "weight": 0.075
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "spinach",
+      "assigned_proxy_delta": 1,
+      "candidate_id": "a00317",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 36,
+        "harmful": 6,
+        "helpful": 5,
+        "neutral_correct": 0,
+        "neutral_wrong": 25
+      },
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "tomato",
+      "rowwise_changed": 11,
+      "rowwise_delta": -1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 1,
+      "screen_score": 725.78,
+      "signal_summary": {
+        "anchor_cols": 242,
+        "nonzero_pairs": 39688,
+        "remove_cols": 806,
+        "rows": 164
+      },
+      "weight": 0.2
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "steamed",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00322",
+      "cluster": "cooking",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 3,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 6,
+      "op": "boost",
+      "remove_entity": "roasted",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 557.92,
+      "signal_summary": {
+        "anchor_cols": 154,
+        "nonzero_pairs": 44044,
+        "remove_cols": 430,
+        "rows": 286
+      },
+      "weight": 0.02
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pepper",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00331",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 5,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 4
+      },
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "celery",
+      "rowwise_changed": 2,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 542.96,
+      "signal_summary": {
+        "anchor_cols": 283,
+        "nonzero_pairs": 72731,
+        "remove_cols": 97,
+        "rows": 257
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "broccoli",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00359",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 9,
+      "op": "boost",
+      "remove_entity": "spinach",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 296.98,
+      "signal_summary": {
+        "anchor_cols": 579,
+        "nonzero_pairs": 206124,
+        "remove_cols": 270,
+        "rows": 356
+      },
+      "weight": 0.02
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "broccoli",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00361",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 2,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 1
+      },
+      "observed_confusions": 9,
+      "op": "both",
+      "remove_entity": "spinach",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 296.98,
+      "signal_summary": {
+        "anchor_cols": 579,
+        "nonzero_pairs": 302244,
+        "remove_cols": 270,
+        "rows": 356
+      },
+      "weight": 0.02
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "carrots",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00364",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 3,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 8,
+      "op": "penalty",
+      "remove_entity": "broccoli",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 293.96,
+      "signal_summary": {
+        "anchor_cols": 608,
+        "nonzero_pairs": 193158,
+        "remove_cols": 441,
+        "rows": 438
+      },
+      "weight": 0.1
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pepper",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00383",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 5,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 4
+      },
+      "observed_confusions": 5,
+      "op": "boost",
+      "remove_entity": "carrots",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 284.94,
+      "signal_summary": {
+        "anchor_cols": 245,
+        "nonzero_pairs": 52675,
+        "remove_cols": 721,
+        "rows": 215
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pepper",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00391",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 7,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 6
+      },
+      "observed_confusions": 5,
+      "op": "both",
+      "remove_entity": "carrots",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 284.94,
+      "signal_summary": {
+        "anchor_cols": 245,
+        "nonzero_pairs": 207690,
+        "remove_cols": 721,
+        "rows": 215
+      },
+      "weight": 0.05
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "green_beans",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00381",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 8,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 7
+      },
+      "observed_confusions": 5,
+      "op": "boost",
+      "remove_entity": "broccoli",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 284.94,
+      "signal_summary": {
+        "anchor_cols": 273,
+        "nonzero_pairs": 31395,
+        "remove_cols": 594,
+        "rows": 115
+      },
+      "weight": 0.3
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "green_beans",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00388",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 11,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 10
+      },
+      "observed_confusions": 5,
+      "op": "both",
+      "remove_entity": "broccoli",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 284.94,
+      "signal_summary": {
+        "anchor_cols": 273,
+        "nonzero_pairs": 99705,
+        "remove_cols": 594,
+        "rows": 115
+      },
+      "weight": 0.2
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "green_beans",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00389",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 11,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 10
+      },
+      "observed_confusions": 5,
+      "op": "both",
+      "remove_entity": "broccoli",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 284.94,
+      "signal_summary": {
+        "anchor_cols": 273,
+        "nonzero_pairs": 99705,
+        "remove_cols": 594,
+        "rows": 115
+      },
+      "weight": 0.3
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pasta",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00394",
+      "cluster": "starch",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 8,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 7
+      },
+      "observed_confusions": 5,
+      "op": "boost",
+      "remove_entity": "noodles",
+      "rowwise_changed": 8,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 284.84,
+      "signal_summary": {
+        "anchor_cols": 128,
+        "nonzero_pairs": 10240,
+        "remove_cols": 64,
+        "rows": 80
+      },
+      "weight": 0.3
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pasta",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00395",
+      "cluster": "starch",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 14,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 13
+      },
+      "observed_confusions": 5,
+      "op": "boost",
+      "remove_entity": "noodles",
+      "rowwise_changed": 8,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 284.84,
+      "signal_summary": {
+        "anchor_cols": 128,
+        "nonzero_pairs": 10240,
+        "remove_cols": 64,
+        "rows": 80
+      },
+      "weight": 0.4
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "carrots",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00403",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 1,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 4,
+      "op": "boost",
+      "remove_entity": "peas",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 281.98,
+      "signal_summary": {
+        "anchor_cols": 741,
+        "nonzero_pairs": 350493,
+        "remove_cols": 64,
+        "rows": 473
+      },
+      "weight": 0.02
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "carrots",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00406",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 1,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 4,
+      "op": "both",
+      "remove_entity": "peas",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 281.98,
+      "signal_summary": {
+        "anchor_cols": 741,
+        "nonzero_pairs": 380765,
+        "remove_cols": 64,
+        "rows": 473
+      },
+      "weight": 0.015
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "carrots",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00407",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 1,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 0
+      },
+      "observed_confusions": 4,
+      "op": "both",
+      "remove_entity": "peas",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 281.98,
+      "signal_summary": {
+        "anchor_cols": 741,
+        "nonzero_pairs": 380765,
+        "remove_cols": 64,
+        "rows": 473
+      },
+      "weight": 0.02
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "carrots",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00404",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 3,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 4,
+      "op": "boost",
+      "remove_entity": "peas",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 281.98,
+      "signal_summary": {
+        "anchor_cols": 741,
+        "nonzero_pairs": 350493,
+        "remove_cols": 64,
+        "rows": 473
+      },
+      "weight": 0.03
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "carrots",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00408",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 3,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 2
+      },
+      "observed_confusions": 4,
+      "op": "both",
+      "remove_entity": "peas",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 281.98,
+      "signal_summary": {
+        "anchor_cols": 741,
+        "nonzero_pairs": 380765,
+        "remove_cols": 64,
+        "rows": 473
+      },
+      "weight": 0.03
+    },
+    {
+      "accuracy": 0.4806362378976487,
+      "anchor_entity": "pepper",
+      "assigned_proxy_delta": 0,
+      "candidate_id": "a00418",
+      "cluster": "veg",
+      "correct": 1390,
+      "delta_correct": -1,
+      "delta_vs_base": {
+        "changed": 7,
+        "harmful": 1,
+        "helpful": 0,
+        "neutral_correct": 0,
+        "neutral_wrong": 6
+      },
+      "observed_confusions": 4,
+      "op": "boost",
+      "remove_entity": "spinach",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 281.96,
+      "signal_summary": {
+        "anchor_cols": 283,
+        "nonzero_pairs": 74995,
+        "remove_cols": 283,
+        "rows": 265
+      },
+      "weight": 0.05
+    }
+  ],
+  "top_screened": [
+    {
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 5,
+      "op": "boost",
+      "remove_entity": "onion",
+      "rowwise_changed": 18,
+      "rowwise_delta": 6,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 6,
+      "screen_score": 2634.64,
+      "signal_summary": {
+        "anchor_cols": 753,
+        "nonzero_pairs": 382524,
+        "remove_cols": 188,
+        "rows": 508
+      },
+      "weight": 0.1
+    },
+    {
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 5,
+      "op": "both",
+      "remove_entity": "onion",
+      "rowwise_changed": 18,
+      "rowwise_delta": 6,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 6,
+      "screen_score": 2634.64,
+      "signal_summary": {
+        "anchor_cols": 753,
+        "nonzero_pairs": 478028,
+        "remove_cols": 188,
+        "rows": 508
+      },
+      "weight": 0.1
+    },
+    {
+      "anchor_entity": "carrots",
+      "assigned_proxy_delta": 2,
+      "cluster": "veg",
+      "observed_confusions": 8,
+      "op": "boost",
+      "remove_entity": "tomato",
+      "rowwise_changed": 5,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2558.9,
+      "signal_summary": {
+        "anchor_cols": 690,
+        "nonzero_pairs": 331890,
+        "remove_cols": 778,
+        "rows": 481
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 2,
+      "cluster": "meat",
+      "observed_confusions": 3,
+      "op": "boost",
+      "remove_entity": "lamb",
+      "rowwise_changed": 10,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 2548.8,
+      "signal_summary": {
+        "anchor_cols": 489,
+        "nonzero_pairs": 89487,
+        "remove_cols": 38,
+        "rows": 183
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 2,
+      "cluster": "meat",
+      "observed_confusions": 3,
+      "op": "both",
+      "remove_entity": "lamb",
+      "rowwise_changed": 10,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 2548.8,
+      "signal_summary": {
+        "anchor_cols": 489,
+        "nonzero_pairs": 96441,
+        "remove_cols": 38,
+        "rows": 183
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 2,
+      "cluster": "meat",
+      "observed_confusions": 3,
+      "op": "boost",
+      "remove_entity": "lamb",
+      "rowwise_changed": 12,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 2548.76,
+      "signal_summary": {
+        "anchor_cols": 489,
+        "nonzero_pairs": 89487,
+        "remove_cols": 38,
+        "rows": 183
+      },
+      "weight": 0.2
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 2,
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "duck",
+      "rowwise_changed": 11,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 2542.78,
+      "signal_summary": {
+        "anchor_cols": 490,
+        "nonzero_pairs": 93590,
+        "remove_cols": 33,
+        "rows": 191
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 2,
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "duck",
+      "rowwise_changed": 11,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 2542.78,
+      "signal_summary": {
+        "anchor_cols": 490,
+        "nonzero_pairs": 99893,
+        "remove_cols": 33,
+        "rows": 191
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 2,
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "duck",
+      "rowwise_changed": 13,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 2542.74,
+      "signal_summary": {
+        "anchor_cols": 490,
+        "nonzero_pairs": 93590,
+        "remove_cols": 33,
+        "rows": 191
+      },
+      "weight": 0.2
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 2,
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "duck",
+      "rowwise_changed": 13,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 2542.74,
+      "signal_summary": {
+        "anchor_cols": 490,
+        "nonzero_pairs": 99893,
+        "remove_cols": 33,
+        "rows": 191
+      },
+      "weight": 0.2
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "banana",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 122,
+        "nonzero_pairs": 9272,
+        "remove_cols": 43,
+        "rows": 76
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "banana",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 122,
+        "nonzero_pairs": 9272,
+        "remove_cols": 43,
+        "rows": 76
+      },
+      "weight": 0.2
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "apple",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 123,
+        "nonzero_pairs": 9471,
+        "remove_cols": 101,
+        "rows": 77
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "apple",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 123,
+        "nonzero_pairs": 9471,
+        "remove_cols": 101,
+        "rows": 77
+      },
+      "weight": 0.2
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "orange",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 125,
+        "nonzero_pairs": 9500,
+        "remove_cols": 158,
+        "rows": 76
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "orange",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 125,
+        "nonzero_pairs": 9500,
+        "remove_cols": 158,
+        "rows": 76
+      },
+      "weight": 0.2
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "banana",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 122,
+        "nonzero_pairs": 12540,
+        "remove_cols": 43,
+        "rows": 76
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "banana",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 122,
+        "nonzero_pairs": 12540,
+        "remove_cols": 43,
+        "rows": 76
+      },
+      "weight": 0.2
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "apple",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 123,
+        "nonzero_pairs": 17248,
+        "remove_cols": 101,
+        "rows": 77
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "apple",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 123,
+        "nonzero_pairs": 17248,
+        "remove_cols": 101,
+        "rows": 77
+      },
+      "weight": 0.2
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "orange",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 125,
+        "nonzero_pairs": 21508,
+        "remove_cols": 158,
+        "rows": 76
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "orange",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 2537.92,
+      "signal_summary": {
+        "anchor_cols": 125,
+        "nonzero_pairs": 21508,
+        "remove_cols": 158,
+        "rows": 76
+      },
+      "weight": 0.2
+    },
+    {
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 5,
+      "op": "boost",
+      "remove_entity": "onion",
+      "rowwise_changed": 11,
+      "rowwise_delta": 5,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 5,
+      "screen_score": 2364.78,
+      "signal_summary": {
+        "anchor_cols": 753,
+        "nonzero_pairs": 382524,
+        "remove_cols": 188,
+        "rows": 508
+      },
+      "weight": 0.075
+    },
+    {
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 5,
+      "op": "both",
+      "remove_entity": "onion",
+      "rowwise_changed": 11,
+      "rowwise_delta": 5,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 5,
+      "screen_score": 2364.78,
+      "signal_summary": {
+        "anchor_cols": 753,
+        "nonzero_pairs": 478028,
+        "remove_cols": 188,
+        "rows": 508
+      },
+      "weight": 0.075
+    },
+    {
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 2,
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "op": "boost",
+      "remove_entity": "pepper",
+      "rowwise_changed": 15,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 3,
+      "screen_score": 2268.7,
+      "signal_summary": {
+        "anchor_cols": 784,
+        "nonzero_pairs": 402192,
+        "remove_cols": 220,
+        "rows": 513
+      },
+      "weight": 0.1
+    },
+    {
+      "anchor_entity": "corn",
+      "assigned_proxy_delta": 2,
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "lettuce",
+      "rowwise_changed": 7,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 2,
+      "screen_score": 2267.86,
+      "signal_summary": {
+        "anchor_cols": 245,
+        "nonzero_pairs": 102486,
+        "remove_cols": 344,
+        "rows": 174
+      },
+      "weight": 0.2
+    },
+    {
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 2,
+      "cluster": "veg",
+      "observed_confusions": 3,
+      "op": "boost",
+      "remove_entity": "pepper",
+      "rowwise_changed": 21,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 3,
+      "rowwise_helpful": 4,
+      "screen_score": 2263.58,
+      "signal_summary": {
+        "anchor_cols": 784,
+        "nonzero_pairs": 402192,
+        "remove_cols": 220,
+        "rows": 513
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "banana",
+      "rowwise_changed": 5,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 3,
+      "screen_score": 2262.9,
+      "signal_summary": {
+        "anchor_cols": 122,
+        "nonzero_pairs": 9272,
+        "remove_cols": 43,
+        "rows": 76
+      },
+      "weight": 0.3
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "banana",
+      "rowwise_changed": 5,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 3,
+      "screen_score": 2262.9,
+      "signal_summary": {
+        "anchor_cols": 122,
+        "nonzero_pairs": 9272,
+        "remove_cols": 43,
+        "rows": 76
+      },
+      "weight": 0.4
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "apple",
+      "rowwise_changed": 5,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 3,
+      "screen_score": 2262.9,
+      "signal_summary": {
+        "anchor_cols": 123,
+        "nonzero_pairs": 9471,
+        "remove_cols": 101,
+        "rows": 77
+      },
+      "weight": 0.3
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "apple",
+      "rowwise_changed": 5,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 3,
+      "screen_score": 2262.9,
+      "signal_summary": {
+        "anchor_cols": 123,
+        "nonzero_pairs": 9471,
+        "remove_cols": 101,
+        "rows": 77
+      },
+      "weight": 0.4
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "orange",
+      "rowwise_changed": 5,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 3,
+      "screen_score": 2262.9,
+      "signal_summary": {
+        "anchor_cols": 125,
+        "nonzero_pairs": 9500,
+        "remove_cols": 158,
+        "rows": 76
+      },
+      "weight": 0.3
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "orange",
+      "rowwise_changed": 5,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 3,
+      "screen_score": 2262.9,
+      "signal_summary": {
+        "anchor_cols": 125,
+        "nonzero_pairs": 9500,
+        "remove_cols": 158,
+        "rows": 76
+      },
+      "weight": 0.4
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "banana",
+      "rowwise_changed": 5,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 3,
+      "screen_score": 2262.9,
+      "signal_summary": {
+        "anchor_cols": 122,
+        "nonzero_pairs": 12540,
+        "remove_cols": 43,
+        "rows": 76
+      },
+      "weight": 0.3
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "banana",
+      "rowwise_changed": 5,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 3,
+      "screen_score": 2262.9,
+      "signal_summary": {
+        "anchor_cols": 122,
+        "nonzero_pairs": 12540,
+        "remove_cols": 43,
+        "rows": 76
+      },
+      "weight": 0.4
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "apple",
+      "rowwise_changed": 5,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 3,
+      "screen_score": 2262.9,
+      "signal_summary": {
+        "anchor_cols": 123,
+        "nonzero_pairs": 17248,
+        "remove_cols": 101,
+        "rows": 77
+      },
+      "weight": 0.3
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "apple",
+      "rowwise_changed": 5,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 3,
+      "screen_score": 2262.9,
+      "signal_summary": {
+        "anchor_cols": 123,
+        "nonzero_pairs": 17248,
+        "remove_cols": 101,
+        "rows": 77
+      },
+      "weight": 0.4
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "orange",
+      "rowwise_changed": 5,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 3,
+      "screen_score": 2262.9,
+      "signal_summary": {
+        "anchor_cols": 125,
+        "nonzero_pairs": 21508,
+        "remove_cols": 158,
+        "rows": 76
+      },
+      "weight": 0.3
+    },
+    {
+      "anchor_entity": "pineapple",
+      "assigned_proxy_delta": 2,
+      "cluster": "fruit",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "orange",
+      "rowwise_changed": 5,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 3,
+      "screen_score": 2262.9,
+      "signal_summary": {
+        "anchor_cols": 125,
+        "nonzero_pairs": 21508,
+        "remove_cols": 158,
+        "rows": 76
+      },
+      "weight": 0.4
+    },
+    {
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 0,
+      "cluster": "veg",
+      "observed_confusions": 5,
+      "op": "boost",
+      "remove_entity": "onion",
+      "rowwise_changed": 27,
+      "rowwise_delta": 6,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 8,
+      "screen_score": 1624.46,
+      "signal_summary": {
+        "anchor_cols": 753,
+        "nonzero_pairs": 382524,
+        "remove_cols": 188,
+        "rows": 508
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 0,
+      "cluster": "veg",
+      "observed_confusions": 5,
+      "op": "both",
+      "remove_entity": "onion",
+      "rowwise_changed": 27,
+      "rowwise_delta": 6,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 8,
+      "screen_score": 1624.46,
+      "signal_summary": {
+        "anchor_cols": 753,
+        "nonzero_pairs": 478028,
+        "remove_cols": 188,
+        "rows": 508
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "pork",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 18,
+      "op": "boost",
+      "remove_entity": "beef",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1593.94,
+      "signal_summary": {
+        "anchor_cols": 510,
+        "nonzero_pairs": 120870,
+        "remove_cols": 468,
+        "rows": 237
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "pork",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 16,
+      "op": "boost",
+      "remove_entity": "chicken",
+      "rowwise_changed": 2,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1587.96,
+      "signal_summary": {
+        "anchor_cols": 490,
+        "nonzero_pairs": 112210,
+        "remove_cols": 821,
+        "rows": 229
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "pork",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 16,
+      "op": "both",
+      "remove_entity": "chicken",
+      "rowwise_changed": 2,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1587.96,
+      "signal_summary": {
+        "anchor_cols": 490,
+        "nonzero_pairs": 300219,
+        "remove_cols": 821,
+        "rows": 229
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 12,
+      "op": "boost",
+      "remove_entity": "carrots",
+      "rowwise_changed": 14,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 1570.72,
+      "signal_summary": {
+        "anchor_cols": 778,
+        "nonzero_pairs": 396780,
+        "remove_cols": 690,
+        "rows": 510
+      },
+      "weight": 0.1
+    },
+    {
+      "anchor_entity": "carrots",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 8,
+      "op": "both",
+      "remove_entity": "tomato",
+      "rowwise_changed": 6,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 1558.88,
+      "signal_summary": {
+        "anchor_cols": 690,
+        "nonzero_pairs": 706108,
+        "remove_cols": 778,
+        "rows": 481
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "carrots",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 8,
+      "op": "boost",
+      "remove_entity": "tomato",
+      "rowwise_changed": 7,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 1558.86,
+      "signal_summary": {
+        "anchor_cols": 690,
+        "nonzero_pairs": 331890,
+        "remove_cols": 778,
+        "rows": 481
+      },
+      "weight": 0.075
+    },
+    {
+      "anchor_entity": "pepper",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 5,
+      "op": "both",
+      "remove_entity": "carrots",
+      "rowwise_changed": 5,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1554.9,
+      "signal_summary": {
+        "anchor_cols": 245,
+        "nonzero_pairs": 207690,
+        "remove_cols": 721,
+        "rows": 215
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "patty",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 3,
+      "op": "boost",
+      "remove_entity": "chicken",
+      "rowwise_changed": 7,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1548.86,
+      "signal_summary": {
+        "anchor_cols": 98,
+        "nonzero_pairs": 10682,
+        "remove_cols": 859,
+        "rows": 109
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "patty",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 3,
+      "op": "both",
+      "remove_entity": "chicken",
+      "rowwise_changed": 8,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1548.84,
+      "signal_summary": {
+        "anchor_cols": 98,
+        "nonzero_pairs": 104313,
+        "remove_cols": 859,
+        "rows": 109
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "roasted",
+      "assigned_proxy_delta": 1,
+      "cluster": "cooking",
+      "observed_confusions": 3,
+      "op": "penalty",
+      "remove_entity": "steamed",
+      "rowwise_changed": 9,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1548.82,
+      "signal_summary": {
+        "anchor_cols": 430,
+        "nonzero_pairs": 75460,
+        "remove_cols": 154,
+        "rows": 490
+      },
+      "weight": 0.4
+    },
+    {
+      "anchor_entity": "carrots",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "op": "boost",
+      "remove_entity": "peas",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 1546.92,
+      "signal_summary": {
+        "anchor_cols": 741,
+        "nonzero_pairs": 350493,
+        "remove_cols": 64,
+        "rows": 473
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "carrots",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 4,
+      "op": "both",
+      "remove_entity": "peas",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 1,
+      "rowwise_helpful": 3,
+      "screen_score": 1546.92,
+      "signal_summary": {
+        "anchor_cols": 741,
+        "nonzero_pairs": 380765,
+        "remove_cols": 64,
+        "rows": 473
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "onion",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 7965,
+        "remove_cols": 289,
+        "rows": 59
+      },
+      "weight": 0.02
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "onion",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 7965,
+        "remove_cols": 289,
+        "rows": 59
+      },
+      "weight": 0.03
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "onion",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 7965,
+        "remove_cols": 289,
+        "rows": 59
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "onion",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 7965,
+        "remove_cols": 289,
+        "rows": 59
+      },
+      "weight": 0.075
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "op": "both",
+      "remove_entity": "onion",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 25016,
+        "remove_cols": 289,
+        "rows": 59
+      },
+      "weight": 0.02
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "op": "both",
+      "remove_entity": "onion",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 25016,
+        "remove_cols": 289,
+        "rows": 59
+      },
+      "weight": 0.03
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "op": "both",
+      "remove_entity": "onion",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 25016,
+        "remove_cols": 289,
+        "rows": 59
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "op": "both",
+      "remove_entity": "onion",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 25016,
+        "remove_cols": 289,
+        "rows": 59
+      },
+      "weight": 0.075
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "onion",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.92,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 7965,
+        "remove_cols": 289,
+        "rows": 59
+      },
+      "weight": 0.1
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "op": "both",
+      "remove_entity": "onion",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.92,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 25016,
+        "remove_cols": 289,
+        "rows": 59
+      },
+      "weight": 0.1
+    },
+    {
+      "anchor_entity": "pork",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "lamb",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.92,
+      "signal_summary": {
+        "anchor_cols": 531,
+        "nonzero_pairs": 138591,
+        "remove_cols": 38,
+        "rows": 261
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "pork",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "duck",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.92,
+      "signal_summary": {
+        "anchor_cols": 531,
+        "nonzero_pairs": 138591,
+        "remove_cols": 32,
+        "rows": 261
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "pork",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 2,
+      "op": "both",
+      "remove_entity": "duck",
+      "rowwise_changed": 5,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.9,
+      "signal_summary": {
+        "anchor_cols": 531,
+        "nonzero_pairs": 146943,
+        "remove_cols": 32,
+        "rows": 261
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "patty",
+      "rowwise_changed": 15,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.7,
+      "signal_summary": {
+        "anchor_cols": 466,
+        "nonzero_pairs": 74094,
+        "remove_cols": 78,
+        "rows": 159
+      },
+      "weight": 0.4
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 2,
+      "op": "both",
+      "remove_entity": "patty",
+      "rowwise_changed": 15,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1545.7,
+      "signal_summary": {
+        "anchor_cols": 466,
+        "nonzero_pairs": 86496,
+        "remove_cols": 78,
+        "rows": 159
+      },
+      "weight": 0.4
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 8235,
+        "remove_cols": 278,
+        "rows": 61
+      },
+      "weight": 0.02
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 8235,
+        "remove_cols": 278,
+        "rows": 61
+      },
+      "weight": 0.03
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 25193,
+        "remove_cols": 278,
+        "rows": 61
+      },
+      "weight": 0.02
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 3,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.94,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 25193,
+        "remove_cols": 278,
+        "rows": 61
+      },
+      "weight": 0.03
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.92,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 8235,
+        "remove_cols": 278,
+        "rows": 61
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.92,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 8235,
+        "remove_cols": 278,
+        "rows": 61
+      },
+      "weight": 0.075
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.92,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 25193,
+        "remove_cols": 278,
+        "rows": 61
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.92,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 25193,
+        "remove_cols": 278,
+        "rows": 61
+      },
+      "weight": 0.075
+    },
+    {
+      "anchor_entity": "pork",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "patty",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.92,
+      "signal_summary": {
+        "anchor_cols": 519,
+        "nonzero_pairs": 133383,
+        "remove_cols": 89,
+        "rows": 257
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "pork",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "patty",
+      "rowwise_changed": 4,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.92,
+      "signal_summary": {
+        "anchor_cols": 519,
+        "nonzero_pairs": 156256,
+        "remove_cols": 89,
+        "rows": 257
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 5,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.9,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 8235,
+        "remove_cols": 278,
+        "rows": 61
+      },
+      "weight": 0.1
+    },
+    {
+      "anchor_entity": "mushroom",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "green_beans",
+      "rowwise_changed": 5,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 2,
+      "screen_score": 1542.9,
+      "signal_summary": {
+        "anchor_cols": 135,
+        "nonzero_pairs": 25193,
+        "remove_cols": 278,
+        "rows": 61
+      },
+      "weight": 0.1
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 3,
+      "op": "boost",
+      "remove_entity": "lamb",
+      "rowwise_changed": 22,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 4,
+      "screen_score": 1538.56,
+      "signal_summary": {
+        "anchor_cols": 489,
+        "nonzero_pairs": 89487,
+        "remove_cols": 38,
+        "rows": 183
+      },
+      "weight": 0.4
+    },
+    {
+      "anchor_entity": "carrots",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "celery",
+      "rowwise_changed": 8,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 4,
+      "screen_score": 1532.84,
+      "signal_summary": {
+        "anchor_cols": 709,
+        "nonzero_pairs": 363717,
+        "remove_cols": 47,
+        "rows": 513
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "carrots",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "celery",
+      "rowwise_changed": 8,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 4,
+      "screen_score": 1532.84,
+      "signal_summary": {
+        "anchor_cols": 709,
+        "nonzero_pairs": 387828,
+        "remove_cols": 47,
+        "rows": 513
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "op": "boost",
+      "remove_entity": "duck",
+      "rowwise_changed": 22,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 4,
+      "screen_score": 1532.56,
+      "signal_summary": {
+        "anchor_cols": 490,
+        "nonzero_pairs": 93590,
+        "remove_cols": 33,
+        "rows": 191
+      },
+      "weight": 0.4
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 1,
+      "op": "both",
+      "remove_entity": "duck",
+      "rowwise_changed": 23,
+      "rowwise_delta": 2,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 4,
+      "screen_score": 1532.54,
+      "signal_summary": {
+        "anchor_cols": 490,
+        "nonzero_pairs": 99893,
+        "remove_cols": 33,
+        "rows": 191
+      },
+      "weight": 0.4
+    },
+    {
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 0,
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "op": "boost",
+      "remove_entity": "celery",
+      "rowwise_changed": 12,
+      "rowwise_delta": 5,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 5,
+      "screen_score": 1355.76,
+      "signal_summary": {
+        "anchor_cols": 840,
+        "nonzero_pairs": 482160,
+        "remove_cols": 90,
+        "rows": 574
+      },
+      "weight": 0.075
+    },
+    {
+      "anchor_entity": "tomato",
+      "assigned_proxy_delta": 0,
+      "cluster": "veg",
+      "observed_confusions": 2,
+      "op": "both",
+      "remove_entity": "celery",
+      "rowwise_changed": 12,
+      "rowwise_delta": 5,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 5,
+      "screen_score": 1355.76,
+      "signal_summary": {
+        "anchor_cols": 840,
+        "nonzero_pairs": 533820,
+        "remove_cols": 90,
+        "rows": 574
+      },
+      "weight": 0.075
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 23,
+      "op": "boost",
+      "remove_entity": "pork",
+      "rowwise_changed": 9,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1338.82,
+      "signal_summary": {
+        "anchor_cols": 468,
+        "nonzero_pairs": 77688,
+        "remove_cols": 510,
+        "rows": 166
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 23,
+      "op": "both",
+      "remove_entity": "pork",
+      "rowwise_changed": 9,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1338.82,
+      "signal_summary": {
+        "anchor_cols": 468,
+        "nonzero_pairs": 162348,
+        "remove_cols": 510,
+        "rows": 166
+      },
+      "weight": 0.15
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 23,
+      "op": "boost",
+      "remove_entity": "pork",
+      "rowwise_changed": 10,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1338.8,
+      "signal_summary": {
+        "anchor_cols": 468,
+        "nonzero_pairs": 77688,
+        "remove_cols": 510,
+        "rows": 166
+      },
+      "weight": 0.2
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 23,
+      "op": "both",
+      "remove_entity": "pork",
+      "rowwise_changed": 10,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1338.8,
+      "signal_summary": {
+        "anchor_cols": 468,
+        "nonzero_pairs": 162348,
+        "remove_cols": 510,
+        "rows": 166
+      },
+      "weight": 0.2
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 23,
+      "op": "boost",
+      "remove_entity": "pork",
+      "rowwise_changed": 16,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 3,
+      "screen_score": 1328.68,
+      "signal_summary": {
+        "anchor_cols": 468,
+        "nonzero_pairs": 77688,
+        "remove_cols": 510,
+        "rows": 166
+      },
+      "weight": 0.4
+    },
+    {
+      "anchor_entity": "beef",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 23,
+      "op": "both",
+      "remove_entity": "pork",
+      "rowwise_changed": 16,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 2,
+      "rowwise_helpful": 3,
+      "screen_score": 1328.68,
+      "signal_summary": {
+        "anchor_cols": 468,
+        "nonzero_pairs": 162348,
+        "remove_cols": 510,
+        "rows": 166
+      },
+      "weight": 0.4
+    },
+    {
+      "anchor_entity": "pork",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 18,
+      "op": "both",
+      "remove_entity": "beef",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1323.98,
+      "signal_summary": {
+        "anchor_cols": 510,
+        "nonzero_pairs": 231786,
+        "remove_cols": 468,
+        "rows": 237
+      },
+      "weight": 0.02
+    },
+    {
+      "anchor_entity": "pork",
+      "assigned_proxy_delta": 1,
+      "cluster": "meat",
+      "observed_confusions": 18,
+      "op": "penalty",
+      "remove_entity": "beef",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1323.96,
+      "signal_summary": {
+        "anchor_cols": 510,
+        "nonzero_pairs": 110916,
+        "remove_cols": 468,
+        "rows": 237
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "carrots",
+      "assigned_proxy_delta": 1,
+      "cluster": "veg",
+      "observed_confusions": 8,
+      "op": "penalty",
+      "remove_entity": "broccoli",
+      "rowwise_changed": 1,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1293.98,
+      "signal_summary": {
+        "anchor_cols": 608,
+        "nonzero_pairs": 193158,
+        "remove_cols": 441,
+        "rows": 438
+      },
+      "weight": 0.05
+    },
+    {
+      "anchor_entity": "rice",
+      "assigned_proxy_delta": 1,
+      "cluster": "starch",
+      "observed_confusions": 8,
+      "op": "boost",
+      "remove_entity": "potato",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1293.96,
+      "signal_summary": {
+        "anchor_cols": 469,
+        "nonzero_pairs": 143983,
+        "remove_cols": 873,
+        "rows": 307
+      },
+      "weight": 0.015
+    },
+    {
+      "anchor_entity": "rice",
+      "assigned_proxy_delta": 1,
+      "cluster": "starch",
+      "observed_confusions": 8,
+      "op": "both",
+      "remove_entity": "potato",
+      "rowwise_changed": 2,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1293.96,
+      "signal_summary": {
+        "anchor_cols": 469,
+        "nonzero_pairs": 411994,
+        "remove_cols": 873,
+        "rows": 307
+      },
+      "weight": 0.015
+    },
+    {
+      "anchor_entity": "rice",
+      "assigned_proxy_delta": 1,
+      "cluster": "starch",
+      "observed_confusions": 8,
+      "op": "boost",
+      "remove_entity": "potato",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1293.94,
+      "signal_summary": {
+        "anchor_cols": 469,
+        "nonzero_pairs": 143983,
+        "remove_cols": 873,
+        "rows": 307
+      },
+      "weight": 0.02
+    },
+    {
+      "anchor_entity": "rice",
+      "assigned_proxy_delta": 1,
+      "cluster": "starch",
+      "observed_confusions": 8,
+      "op": "both",
+      "remove_entity": "potato",
+      "rowwise_changed": 3,
+      "rowwise_delta": 1,
+      "rowwise_harmful": 0,
+      "rowwise_helpful": 1,
+      "screen_score": 1293.94,
+      "signal_summary": {
+        "anchor_cols": 469,
+        "nonzero_pairs": 411994,
+        "remove_cols": 873,
+        "rows": 307
+      },
+      "weight": 0.02
+    }
+  ],
+  "weights": [
+    0.01,
+    0.015,
+    0.02,
+    0.03,
+    0.05,
+    0.075,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.4
+  ]
+}

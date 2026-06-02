@@ -1,0 +1,222 @@
+{
+  "description_caches_available": true,
+  "elapsed_sec": 13.391480445861816,
+  "embedding_cache_summary": {
+    "clip_h_dfn5b": [
+      {
+        "dtype": "float32",
+        "path": "clip_cache/vit_h_14_dfn5b/test1_image_features.npy",
+        "shape": [
+          6756,
+          1024
+        ]
+      },
+      {
+        "dtype": "float32",
+        "path": "clip_cache/vit_h_14_dfn5b/test1_text_features.npy",
+        "shape": [
+          399,
+          1024
+        ]
+      },
+      {
+        "dtype": "float32",
+        "path": "clip_cache/vit_h_14_dfn5b/test2_image_features.npy",
+        "shape": [
+          2892,
+          1024
+        ]
+      },
+      {
+        "dtype": "float32",
+        "path": "clip_cache/vit_h_14_dfn5b/test2_text_features.npy",
+        "shape": [
+          4650,
+          1024
+        ]
+      }
+    ],
+    "qwen3_vl_2b": [
+      {
+        "dtype": "float32",
+        "path": "qwen3vl2b_cache/test1_image_features.npy",
+        "shape": [
+          6756,
+          2048
+        ]
+      },
+      {
+        "dtype": "float32",
+        "path": "qwen3vl2b_cache/test1_text_features.npy",
+        "shape": [
+          399,
+          2048
+        ]
+      },
+      {
+        "dtype": "float32",
+        "path": "qwen3vl2b_cache/test2_image_features.npy",
+        "shape": [
+          2892,
+          2048
+        ]
+      },
+      {
+        "dtype": "float32",
+        "path": "qwen3vl2b_cache/test2_text_features.npy",
+        "shape": [
+          4650,
+          2048
+        ]
+      }
+    ],
+    "qwen3_vl_8b": [
+      {
+        "dtype": "float32",
+        "path": "qwen3_cache/qwen3vl8b_test1_img.npy",
+        "shape": [
+          6756,
+          4096
+        ]
+      },
+      {
+        "dtype": "float32",
+        "path": "qwen3_cache/qwen3vl8b_test1_text.npy",
+        "shape": [
+          399,
+          4096
+        ]
+      },
+      {
+        "dtype": "float32",
+        "path": "qwen3_cache/qwen3vl8b_test2_img.npy",
+        "shape": [
+          2892,
+          4096
+        ]
+      },
+      {
+        "dtype": "float32",
+        "path": "qwen3_cache/qwen3vl8b_test2_text.npy",
+        "shape": [
+          4650,
+          4096
+        ]
+      }
+    ],
+    "siglip2": [
+      {
+        "dtype": "float32",
+        "path": "siglip2_cache/test1_image_features.npy",
+        "shape": [
+          6756,
+          768
+        ]
+      },
+      {
+        "dtype": "float32",
+        "path": "siglip2_cache/test1_text_features.npy",
+        "shape": [
+          399,
+          768
+        ]
+      },
+      {
+        "dtype": "float32",
+        "path": "siglip2_cache/test2_image_features.npy",
+        "shape": [
+          2892,
+          768
+        ]
+      },
+      {
+        "dtype": "float32",
+        "path": "siglip2_cache/test2_text_features.npy",
+        "shape": [
+          4650,
+          768
+        ]
+      }
+    ]
+  },
+  "final_preset": "p0525_r80",
+  "finished_at": "2026-05-06T23:37:56",
+  "output": "submission.csv",
+  "output_sha256": "abb8d8a42a74a6aad9c10f57d9abcff4f60beacc8ab893159bbff188dddc03d2",
+  "recall_summary": {
+    "additions": 92,
+    "layer": "dynamic_recall_addbacks",
+    "manifest": "optimization/experiment_results/test1_recall_recovery_20260501212205.json",
+    "preset": "p0525_r80",
+    "selected_rules": 26
+  },
+  "reference_compare": {
+    "reference_exists": false
+  },
+  "row_count": 9648,
+  "script": "reproduce_final_submission.py",
+  "test1_summary": {
+    "layers": [
+      {
+        "container_additions": 76,
+        "layer": "embedding_adaptive_base",
+        "seasoning_additions": 145
+      },
+      {
+        "additions": 219,
+        "layer": "qwen_gemma_description_ensemble",
+        "manifest": "optimization/experiment_results/test1_qwen_gemma_desc_ensemble_20260501071543.json",
+        "mode": "bestlocal",
+        "selected_rule_labels": 40
+      },
+      {
+        "additions": 134,
+        "base": "qwen_gemma_bestlocal",
+        "layer": "triggered_selected",
+        "manifest": "optimization/experiment_results/test1_description_signal_rules_20260501104024.json",
+        "selected_rule_labels": 35
+      },
+      {
+        "additions": 87,
+        "base": "current_selected_hard",
+        "layer": "margin_gates",
+        "manifest": "optimization/experiment_results/test1_triggered_margin_gates_20260501165741.json",
+        "selected_gate_count": 19,
+        "selected_rule_labels": 66
+      },
+      {
+        "additions": 3,
+        "layer": "clustered_test1_clustered_ab_confusions_20260501171640",
+        "manifest": "optimization/experiment_results/test1_clustered_ab_confusions_20260501171640.json",
+        "preset": "best",
+        "removals": 554,
+        "selected_rules": 100
+      },
+      {
+        "additions": 10,
+        "layer": "clustered_test1_clustered_ab_confusions_aggressive_20260501185240",
+        "manifest": "optimization/experiment_results/test1_clustered_ab_confusions_aggressive_20260501185240.json",
+        "preset": "best",
+        "removals": 409,
+        "selected_rules": 142
+      },
+      {
+        "additions": 12,
+        "layer": "clustered_test1_clustered_ab_confusions_secondpass_20260501191353",
+        "manifest": "optimization/experiment_results/test1_clustered_ab_confusions_secondpass_20260501191353.json",
+        "preset": "best",
+        "removals": 220,
+        "selected_rules": 142
+      },
+      {
+        "additions": 92,
+        "layer": "dynamic_recall_addbacks",
+        "manifest": "optimization/experiment_results/test1_recall_recovery_20260501212205.json",
+        "preset": "p0525_r80",
+        "selected_rules": 26
+      }
+    ],
+    "mode": "dynamic_private_safe"
+  },
+  "test2_safe_preset": "second_max4_safe"
+}
