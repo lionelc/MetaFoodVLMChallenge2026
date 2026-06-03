@@ -1,6 +1,6 @@
 # Dishcovery Mission II — Challenge in Metafood Workshop @ CVPR 2026
 
-by Lei Jiang (lionelchange@gmail.com)
+by Lei Jiang (lionelchange [at] gmail.com)
 
 ## Approach
 
